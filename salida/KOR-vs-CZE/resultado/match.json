@@ -1,0 +1,134 @@
+{
+  "mode": "resultado",
+  "account": "@mundialaldia",
+  "competition": "Copa del Mundo 2026 · Grupo A · Jornada 1",
+  "datetime": "2026-06-11T20:00:00-05:00",
+  "venue": "Estadio Akron, Guadalajara, México",
+  "a": {
+    "name": "Corea del Sur",
+    "code": "KOR",
+    "color": "#C60C30",
+    "form": [
+      "W",
+      "D",
+      "W",
+      "L",
+      "W"
+    ],
+    "star": "Heung-Min Son"
+  },
+  "b": {
+    "name": "Chequia",
+    "code": "CZE",
+    "color": "#003DA5",
+    "form": [
+      "W",
+      "L",
+      "D",
+      "W",
+      "L"
+    ],
+    "star": "Patrik Schick"
+  },
+  "score": {
+    "a": 2,
+    "b": 1
+  },
+  "headline": "DE ATRÁS\n*NADIE LOS PARA*\nCorea remonta\ny arranca fuerte",
+  "hookLine": "¡Remontada asiática en Guadalajara! Corea del Sur vence 2-1 a Chequia con un segundo tiempo de infarto.",
+  "teaser": "Los Tigres de Oriente cayeron, se levantaron y ganaron. Hwang In-beom, figura total.",
+  "goals": [
+    {
+      "minute": "59'",
+      "player": "Ladislav Krejčí",
+      "team": "b"
+    },
+    {
+      "minute": "67'",
+      "player": "Hwang In-beom",
+      "team": "a"
+    },
+    {
+      "minute": "80'",
+      "player": "Oh Hyeon-gyu",
+      "team": "a"
+    }
+  ],
+  "incidents": [
+    {
+      "minute": "~75'",
+      "type": "var",
+      "player": "Tomáš Souček",
+      "team": "b",
+      "note": "Gol de cabeza de Souček anulado por fuera de lugar tras revisión; habría significado el 2-1 para Chequia."
+    },
+    {
+      "minute": "~88'",
+      "type": "amarilla",
+      "player": "Lee Gi-hyuk",
+      "team": "a",
+      "note": "Falta dura e intencional sobre Hlozek para frenar el juego en los minutos finales."
+    }
+  ],
+  "figura": {
+    "name": "Hwang In-beom",
+    "team": "a",
+    "role": "Centrocampista",
+    "stat": "1 gol + 1 asistencia decisiva. Tercer jugador de Corea del Sur en lograr gol y asistencia en un mismo partido de Copa del Mundo."
+  },
+  "story": {
+    "kicker": "GRUPO A · J1 · GUADALAJARA",
+    "head": "COREA SE LEVANTA\n*DE LAS CENIZAS*\ny noquea a Chequia\nen el debut",
+    "body": "Primer tiempo insulso, público que abucheó al descanso y un Son Heung-min incapaz de concretar. El guion pintaba mal para los asiáticos. Pero el segundo acto fue otro mundo: Krejčí abrió el marcador de cabeza (59'), sin embargo Hwang In-beom respondió ocho minutos después con una definición magistral. Un gol anulado al VAR a Souček mantuvo vivo a Corea, y en el 80' Oh Hyeon-gyu —recién ingresado— recibió el centro de Hwang y sentenció el partido. La portería de Kovář y la de Kim Seung-gyu se llenaron de sustos, pero el marcador final habló de justicia deportiva.",
+    "num": "2-1",
+    "lab": "Resultado final",
+    "sub": "Remontada en el Akron"
+  },
+  "quotes": [
+    {
+      "text": "El triunfo me alegra, pero lo más positivo es que nuestros jugadores ganaron sin rendirse.",
+      "who": "Hong Myung-bo",
+      "role": "Entrenador",
+      "team": "a"
+    },
+    {
+      "text": "Son Heung-min es nuestro mejor jugador y un capitán muy consistente. Creemos que lo intentó al máximo.",
+      "who": "Hong Myung-bo",
+      "role": "Entrenador",
+      "team": "a"
+    },
+    {
+      "text": "Jugamos muy bien; pudo haber sido empate e incluso pudimos ganar.",
+      "who": "Miroslav Koubek",
+      "role": "Entrenador",
+      "team": "b"
+    }
+  ],
+  "tiles": [
+    {
+      "num": "55%",
+      "lab": "Posesión",
+      "sub": "Corea dominó el balón todo el partido"
+    },
+    {
+      "num": "2",
+      "lab": "Goles anulados",
+      "sub": "Souček vio su tanto invalidado por offside vía VAR"
+    },
+    {
+      "num": "11'",
+      "lab": "Reacción",
+      "sub": "Corea tardó solo 8 minutos en empatar tras encajar el 0-1"
+    }
+  ],
+  "closingNote": "Con esta victoria, Corea del Sur arranca el Grupo A con 3 puntos y diferencia de gol +1, igualando en lo alto a México (2-0 vs Sudáfrica). El choque directo entre ambos en la Jornada 2 en Guadalajara se convierte en un duelo por el liderato del grupo. Chequia, sin puntos, necesita ganarle a Sudáfrica (J2, Atlanta) para seguir viva en el torneo.",
+  "slides": {
+    "rhook": true,
+    "story": true,
+    "goals": true,
+    "incidentes": true,
+    "figura": true,
+    "stats": true,
+    "cierre": true
+  }
+}
