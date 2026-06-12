@@ -1,0 +1,97 @@
+{
+  "mode": "previa",
+  "account": "@mundialaldia",
+  "competition": "FIFA World Cup 2026 · Grupo C · Jornada 1",
+  "datetime": "2026-06-13T18:00:00-04:00",
+  "venue": "MetLife Stadium, East Rutherford, Nueva Jersey",
+  "a": {
+    "name": "Brasil",
+    "code": "BRA",
+    "color": "#F7C700",
+    "form": [
+      "D",
+      "L",
+      "W",
+      "W",
+      "W"
+    ],
+    "star": "Vinícius Jr."
+  },
+  "b": {
+    "name": "Marruecos",
+    "code": "MAR",
+    "color": "#C1272D",
+    "form": [
+      "D",
+      "W",
+      "W",
+      "W",
+      "D"
+    ],
+    "star": "Achraf Hakimi"
+  },
+  "formula": "surprise",
+  "headline": "La *Canarinha*\nfrente al equipo\nque ya la venció\nuna vez",
+  "hookLine": "Brasil llega favorito. Marruecos llega con la cicatriz de ese 2-1 en 2023.",
+  "teaser": "El partido más atractivo de la Jornada 1 enfrenta a los cinco veces campeones del mundo contra los Leones del Atlas que ya saben cómo ganarles. ¿Debuta Ancelotti con victoria o Ouahbi sorprende al planeta?",
+  "story": {
+    "kicker": "GRUPO C · J1 · MetLife Stadium",
+    "head": "La *revancha*\nde los dos\nmundos",
+    "body": "Brasil busca su sexta estrella con Ancelotti en el banquillo —primer DT extranjero en 100 años— y una delantera que depende de Vinícius y Raphinha tras las bajas de Rodrygo, Estêvão y Wesley. Marruecos, semifinalista en Qatar 2022, llega con nuevo técnico (Ouahbi), sin Ezzalzouli ni Aguerd, pero con Hakimi, Amrabat y Brahim Díaz listos para dar la sorpresa desde el primer minuto.",
+    "num": "1",
+    "lab": "antecedente directo",
+    "sub": "Solo se cruzaron 1 vez en Mundiales (Francia 1998), con victoria brasileña 3-0. Pero en el último duelo —amistoso 2023— ganó Marruecos 2-1."
+  },
+  "quotes": [
+    {
+      "text": "¿Por qué no hacer algo incluso mejor que en Qatar y llegar tan lejos como sea posible?",
+      "who": "Achraf Hakimi",
+      "role": "Capitán",
+      "team": "b"
+    },
+    {
+      "text": "No somos los favoritos por los resultados que hemos tenido. Queremos llegar al Mundial igual que a los amistosos: tranquilos, pacientes y enfocados.",
+      "who": "Vinícius Jr.",
+      "role": "Delantero estrella",
+      "team": "a"
+    },
+    {
+      "text": "Vinicius tiene los mismos dones especiales que los grandes de todos los tiempos de Brasil.",
+      "who": "Carlo Ancelotti",
+      "role": "Seleccionador de Brasil",
+      "team": "a"
+    }
+  ],
+  "tiles": [
+    {
+      "num": "5",
+      "lab": "Copas del Mundo",
+      "sub": "Brasil es el país más ganador de la historia del torneo, pero lleva 24 años sin un título mundial."
+    },
+    {
+      "num": "1-0",
+      "lab": "H2H en Mundiales",
+      "sub": "Un solo antecedente en Copa del Mundo: Francia 1998, Brasil ganó 3-0 con goles de Ronaldo, Rivaldo y Bebeto."
+    },
+    {
+      "num": "2-1",
+      "lab": "Último duelo (2023)",
+      "sub": "Marruecos venció a Brasil en amistoso en marzo de 2023. Es el único antecedente directo reciente y marca favorito."
+    }
+  ],
+  "aInj": "Rodrygo — rotura de LCA (rodilla), baja total\nEstêvão — lesión de isquiotibiales, baja total\nÉder Militão — lesión de tendón, baja total\nWesley — desgarro muscular (muslo izq.), baja total\nNeymar — lesión de gemelo, dudoso para J1",
+  "bInj": "Abde Ezzalzouli — lesión de rodilla (pretemporada), baja total\nNayef Aguerd — fractura de hueso púbico, baja total",
+  "pred": {
+    "a": 2,
+    "b": 1,
+    "note": "La jerarquía ofensiva de Brasil —con Vinícius, Raphinha y Matheus Cunha— debería imponerse, pero Marruecos tiene argumentos defensivos y el factor sorpresa de un equipo que ya ganó este duelo. Partido cerrado, victoria brasileña ajustada."
+  },
+  "slides": {
+    "hook": true,
+    "story": true,
+    "quotes": true,
+    "stats": true,
+    "injuries": true,
+    "verdict": true
+  }
+}

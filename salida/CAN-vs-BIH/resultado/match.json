@@ -1,0 +1,145 @@
+{
+  "mode": "resultado",
+  "account": "@mundialaldia",
+  "competition": "FIFA World Cup 2026 · Grupo B · Jornada 1",
+  "datetime": "2026-06-12T15:00-04:00",
+  "venue": "BMO Field (Toronto Stadium), Toronto, Canadá",
+  "a": {
+    "name": "Canadá",
+    "code": "CAN",
+    "color": "#FF0000",
+    "form": [
+      "D",
+      "D",
+      "W",
+      "W",
+      "D"
+    ],
+    "star": "Cyle Larin"
+  },
+  "b": {
+    "name": "Bosnia y Herzegovina",
+    "code": "BIH",
+    "color": "#003DA5",
+    "form": [
+      "W",
+      "W",
+      "D",
+      "W",
+      "W"
+    ],
+    "star": "Jovo Lukić"
+  },
+  "headline": "CANADÁ HACE\n*HISTORIA*\nen su propio\nMundial",
+  "hookLine": "El primero punto de Los Rojos en un Mundial llegó con drama y con Larin de súper suplente",
+  "teaser": "Bosnia marcó de cabeza en el 21'. Canadá lo igualó en el 78' con Larin recién entrado. Primer punto mundialista de la historia para Canadá.",
+  "score": {
+    "a": 1,
+    "b": 1
+  },
+  "goals": [
+    {
+      "minute": "21",
+      "player": "J. Lukić",
+      "team": "b"
+    },
+    {
+      "minute": "78",
+      "player": "C. Larin",
+      "team": "a"
+    }
+  ],
+  "incidents": [
+    {
+      "minute": "11",
+      "type": "amarilla",
+      "player": "A. Johnston",
+      "team": "a",
+      "note": "Amonestado por falta peligrosa"
+    },
+    {
+      "minute": "45",
+      "type": "amarilla",
+      "player": "E. Demirović",
+      "team": "b",
+      "note": "Amonestado por falta peligrosa al borde del descanso"
+    },
+    {
+      "minute": "53",
+      "type": "amarilla",
+      "player": "L. De Fougerolles",
+      "team": "a",
+      "note": "Amonestado por juego peligroso"
+    },
+    {
+      "minute": "53",
+      "type": "polemica",
+      "player": "R. Laryea",
+      "team": "a",
+      "note": "Disparo despejado por Kolašinac en la línea, golpea el larguero — ocasión clarísima de Canadá"
+    },
+    {
+      "minute": "67",
+      "type": "polemica",
+      "player": "T. Oluwaseyi",
+      "team": "a",
+      "note": "Remate de cabeza despejado sobre la línea por Katić — segunda acción milagrosa de Bosnia"
+    },
+    {
+      "minute": "90+3",
+      "type": "amarilla",
+      "player": "N. Katić",
+      "team": "b",
+      "note": "Tarjeta amarilla por detener un contragolpe peligroso de Larin en el descuento"
+    }
+  ],
+  "figura": {
+    "name": "Cyle Larin",
+    "team": "a",
+    "role": "Delantero (suplente)",
+    "stat": "Entró al 76' y marcó 121 segundos después — gol que valió el primer punto de Canadá en Mundiales"
+  },
+  "story": {
+    "kicker": "Grupo B · J1 · BMO Field, Toronto",
+    "head": "LARIN LO *RESCATÓ*\nen el último acto",
+    "body": "Bosnia y Herzegovina golpeó primero con un cabezazo de Jovo Lukić desde córner en el 21'. Canadá dominó el balón (61% de posesión) pero se estrelló contra una defensa bosnia de acero: Kolašinac despejó un remate en la línea en el 53' y Katić repitió la heroicidad en el 67'. El empate llegó en el 78', cuando Larin, recién salido del banco, recibió un pase de tacón de Promise David, se giró y fusiló el ángulo bajo. Historia pura: primer punto de Canadá en un Mundial.",
+    "num": "1",
+    "lab": "pto.",
+    "sub": "primero en la historia del fútbol canadiense"
+  },
+  "quotes": [
+    {
+      "text": "That's the attitude of the player coming onto the pitch — how quick is the touch, the swivel and turn?",
+      "who": "Stephen Warnock",
+      "role": "Analista, BBC Sport",
+      "team": "a"
+    }
+  ],
+  "tiles": [
+    {
+      "num": "61%",
+      "lab": "posesión",
+      "sub": "Canadá dominó el balón todo el partido"
+    },
+    {
+      "num": "1.25",
+      "lab": "xG CAN vs 0.98 BIH",
+      "sub": "Los canadienses merecieron más, según los datos"
+    },
+    {
+      "num": "2",
+      "lab": "despejes en la línea",
+      "sub": "Kolašinac y Katić negaron el gol a Bosnia"
+    }
+  ],
+  "closingNote": "Con este empate, Canadá suma su primer punto en la historia de los Mundiales y se convierte en el primer anfitrión en empatar su debut desde Sudáfrica 2010. Les Rouges enfrentarán a Qatar el jueves 18 de junio en Vancouver. Bosnia y Herzegovina, con un punto, choca con Suiza ese mismo día. El Grupo B queda completamente abierto.",
+  "slides": {
+    "rhook": true,
+    "story": true,
+    "goals": true,
+    "incidentes": true,
+    "figura": true,
+    "stats": true,
+    "cierre": true
+  }
+}
