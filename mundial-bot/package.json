@@ -1,0 +1,14 @@
+{
+  "name": "mundial-carrusel-bot",
+  "version": "2.0.0",
+  "type": "module",
+  "description": "Carruseles de previa y resultado del Mundial 2026: investiga -> JSON -> PNG.",
+  "scripts": {
+    "start": "node run.js",
+    "all": "node run.js --all"
+  },
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.30.0",
+    "puppeteer": "^23.0.0"
+  }
+}

@@ -1,0 +1,38 @@
+name: Mundial Carrusel Bot
+
+# Corre solo, sin tu PC: 3 veces al día (horario UTC) + un botón manual.
+on:
+  schedule:
+    - cron: '0 6,14,22 * * *'   # 06:00, 14:00 y 22:00 UTC
+  workflow_dispatch:             # botón "Run workflow" para pruebas manuales
+
+permissions:
+  contents: write   # necesario para que el bot pueda subir los PNG/JSON al repo
+
+jobs:
+  generar:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Clonar repositorio
+        uses: actions/checkout@v4
+
+      - name: Instalar Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: Instalar dependencias (incluye Chrome para Puppeteer)
+        run: npm install
+
+      - name: Generar carruseles (investigación + render)
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+        run: node run.js
+
+      - name: Guardar resultados en el repo
+        run: |
+          git config user.name "mundial-bot"
+          git config user.email "mundial-bot@users.noreply.github.com"
+          git add salida/
+          git diff --staged --quiet || git commit -m "Carruseles generados $(date -u +'%Y-%m-%d %H:%M UTC')"
+          git push

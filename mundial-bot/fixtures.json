@@ -1,0 +1,56 @@
+[
+  {
+    "id": "MEX-vs-RSA",
+    "stage": "Grupo A · J1",
+    "a": { "name": "México", "code": "MEX" },
+    "b": { "name": "Sudáfrica", "code": "RSA" },
+    "venue": "Estadio Azteca",
+    "datetime": "Jue 11 Jun · 13:00 (CDMX)",
+    "kickoff": "2026-06-11T19:00:00Z"
+  },
+  {
+    "id": "KOR-vs-CZE",
+    "stage": "Grupo A · J1",
+    "a": { "name": "Corea del Sur", "code": "KOR" },
+    "b": { "name": "Chequia", "code": "CZE" },
+    "venue": "Estadio Akron, Guadalajara",
+    "datetime": "Jue 11 Jun · 20:00 (CDMX)",
+    "kickoff": "2026-06-12T02:00:00Z"
+  },
+  {
+    "id": "CZE-vs-RSA",
+    "stage": "Grupo A · J2",
+    "a": { "name": "Chequia", "code": "CZE" },
+    "b": { "name": "Sudáfrica", "code": "RSA" },
+    "venue": "Mercedes-Benz Stadium, Atlanta",
+    "datetime": "Jue 18 Jun · 12:00 (ET)",
+    "kickoff": "2026-06-18T16:00:00Z"
+  },
+  {
+    "id": "MEX-vs-KOR",
+    "stage": "Grupo A · J2",
+    "a": { "name": "México", "code": "MEX" },
+    "b": { "name": "Corea del Sur", "code": "KOR" },
+    "venue": "Estadio Akron, Guadalajara",
+    "datetime": "Jue 18 Jun · 19:00 (CDMX)",
+    "kickoff": "2026-06-19T01:00:00Z"
+  },
+  {
+    "id": "CZE-vs-MEX",
+    "stage": "Grupo A · J3",
+    "a": { "name": "Chequia", "code": "CZE" },
+    "b": { "name": "México", "code": "MEX" },
+    "venue": "Estadio Azteca",
+    "datetime": "Mié 24 Jun · 19:00 (CDMX)",
+    "kickoff": "2026-06-25T01:00:00Z"
+  },
+  {
+    "id": "RSA-vs-KOR",
+    "stage": "Grupo A · J3",
+    "a": { "name": "Sudáfrica", "code": "RSA" },
+    "b": { "name": "Corea del Sur", "code": "KOR" },
+    "venue": "Estadio BBVA, Monterrey",
+    "datetime": "Mié 24 Jun · 19:00 (MTY)",
+    "kickoff": "2026-06-25T01:00:00Z"
+  }
+]
