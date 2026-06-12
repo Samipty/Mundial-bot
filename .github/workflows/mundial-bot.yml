@@ -27,12 +27,13 @@ jobs:
       - name: Generar carruseles (investigación + render)
         env:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          API_SPORTS_KEY: ${{ secrets.API_SPORTS_KEY }}
         run: node run.js
 
       - name: Guardar resultados en el repo
         run: |
           git config user.name "mundial-bot"
           git config user.email "mundial-bot@users.noreply.github.com"
-          git add salida/
+          git add salida/ cache/
           git diff --staged --quiet || git commit -m "Carruseles generados $(date -u +'%Y-%m-%d %H:%M UTC')"
           git push

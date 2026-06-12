@@ -11,6 +11,22 @@ Por cada partido genera DOS carruseles profundos: una **previa** (antes) y un
                          └─ decide modo según la hora del partido
 ```
 
+## Calendario cubierto
+
+`fixtures.json` incluye 37 partidos de fase de grupos: los 6 del Grupo A
+(México) más los partidos de Brasil, España, Francia, Argentina, Portugal,
+Colombia, Inglaterra, Panamá, Nueva Zelanda, Estados Unidos y Canadá — 9 grupos
+en total (A, B, C, D, G, H, I, J, K, L).
+
+**Nota sobre horarios:** los `datetime` de los partidos nuevos traen solo la
+fecha (sin hora exacta) a propósito — así el modelo investiga y confirma la
+hora real como parte de su búsqueda, en vez de repetir un dato que podríamos
+tener mal. El `kickoff` (hora aproximada) solo se usa internamente para decidir
+cuándo generar la previa/resultado; unas horas de diferencia no son problema.
+
+Para agregar más partidos o grupos, copia el mismo formato de una entrada
+existente.
+
 ## Preparación (una sola vez) — Windows
 
 1. **Descomprime** el zip. Te queda la carpeta `mundial-bot`.
@@ -88,6 +104,28 @@ y publiques.
 Programa `node run.js` con el **Programador de tareas**. Requiere que tu PC
 esté encendida a esa hora.
 
+
+## Datos verificados con API-Football (opcional, recomendado)
+
+Por defecto, los datos "duros" (forma reciente, marcador, goles, rojas/VAR) se
+obtienen mediante la investigación con búsqueda web de Claude. Si tienes un
+plan de API-Sports (api-sports.io, API-Football), el bot puede usarlo como
+**fuente verificada** para esos datos: Claude ya no tiene que adivinarlos, solo
+escribir el contenido alrededor de ellos.
+
+Para activarlo, agrega un Secret más en GitHub (mismo lugar que
+`ANTHROPIC_API_KEY`):
+
+- **Settings → Secrets and variables → Actions → New repository secret**
+- Nombre: `API_SPORTS_KEY`   Valor: tu clave de api-sports.io
+
+No necesitas cambiar nada más. Si el Secret no existe, o la API todavía no
+tiene el dato de un partido (normal al inicio del torneo), el bot sigue
+funcionando exactamente igual que antes, solo con búsqueda web.
+
+La primera vez que corre, el bot guarda en `cache/team-ids.json` el mapeo de
+selecciones a IDs de API-Football (para no repetir esa llamada). Ese archivo
+se sube al repo igual que `salida/`.
 
 ## Notas
 

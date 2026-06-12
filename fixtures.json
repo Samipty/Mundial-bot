@@ -2,8 +2,14 @@
   {
     "id": "MEX-vs-RSA",
     "stage": "Grupo A · J1",
-    "a": { "name": "México", "code": "MEX" },
-    "b": { "name": "Sudáfrica", "code": "RSA" },
+    "a": {
+      "name": "México",
+      "code": "MEX"
+    },
+    "b": {
+      "name": "Sudáfrica",
+      "code": "RSA"
+    },
     "venue": "Estadio Azteca",
     "datetime": "Jue 11 Jun · 13:00 (CDMX)",
     "kickoff": "2026-06-11T19:00:00Z"
@@ -11,8 +17,14 @@
   {
     "id": "KOR-vs-CZE",
     "stage": "Grupo A · J1",
-    "a": { "name": "Corea del Sur", "code": "KOR" },
-    "b": { "name": "Chequia", "code": "CZE" },
+    "a": {
+      "name": "Corea del Sur",
+      "code": "KOR"
+    },
+    "b": {
+      "name": "Chequia",
+      "code": "CZE"
+    },
     "venue": "Estadio Akron, Guadalajara",
     "datetime": "Jue 11 Jun · 20:00 (CDMX)",
     "kickoff": "2026-06-12T02:00:00Z"
@@ -20,8 +32,14 @@
   {
     "id": "CZE-vs-RSA",
     "stage": "Grupo A · J2",
-    "a": { "name": "Chequia", "code": "CZE" },
-    "b": { "name": "Sudáfrica", "code": "RSA" },
+    "a": {
+      "name": "Chequia",
+      "code": "CZE"
+    },
+    "b": {
+      "name": "Sudáfrica",
+      "code": "RSA"
+    },
     "venue": "Mercedes-Benz Stadium, Atlanta",
     "datetime": "Jue 18 Jun · 12:00 (ET)",
     "kickoff": "2026-06-18T16:00:00Z"
@@ -29,8 +47,14 @@
   {
     "id": "MEX-vs-KOR",
     "stage": "Grupo A · J2",
-    "a": { "name": "México", "code": "MEX" },
-    "b": { "name": "Corea del Sur", "code": "KOR" },
+    "a": {
+      "name": "México",
+      "code": "MEX"
+    },
+    "b": {
+      "name": "Corea del Sur",
+      "code": "KOR"
+    },
     "venue": "Estadio Akron, Guadalajara",
     "datetime": "Jue 18 Jun · 19:00 (CDMX)",
     "kickoff": "2026-06-19T01:00:00Z"
@@ -38,8 +62,14 @@
   {
     "id": "CZE-vs-MEX",
     "stage": "Grupo A · J3",
-    "a": { "name": "Chequia", "code": "CZE" },
-    "b": { "name": "México", "code": "MEX" },
+    "a": {
+      "name": "Chequia",
+      "code": "CZE"
+    },
+    "b": {
+      "name": "México",
+      "code": "MEX"
+    },
     "venue": "Estadio Azteca",
     "datetime": "Mié 24 Jun · 19:00 (CDMX)",
     "kickoff": "2026-06-25T01:00:00Z"
@@ -47,10 +77,481 @@
   {
     "id": "RSA-vs-KOR",
     "stage": "Grupo A · J3",
-    "a": { "name": "Sudáfrica", "code": "RSA" },
-    "b": { "name": "Corea del Sur", "code": "KOR" },
+    "a": {
+      "name": "Sudáfrica",
+      "code": "RSA"
+    },
+    "b": {
+      "name": "Corea del Sur",
+      "code": "KOR"
+    },
     "venue": "Estadio BBVA, Monterrey",
     "datetime": "Mié 24 Jun · 19:00 (MTY)",
     "kickoff": "2026-06-25T01:00:00Z"
+  },
+  {
+    "id": "CAN-vs-BIH",
+    "stage": "Grupo B · J1",
+    "a": {
+      "name": "Canadá",
+      "code": "CAN"
+    },
+    "b": {
+      "name": "Bosnia y Herzegovina",
+      "code": "BIH"
+    },
+    "venue": "Toronto Stadium",
+    "datetime": "Vie 12 Jun 2026",
+    "kickoff": "2026-06-12T17:00:00Z"
+  },
+  {
+    "id": "CAN-vs-QAT",
+    "stage": "Grupo B · J2",
+    "a": {
+      "name": "Canadá",
+      "code": "CAN"
+    },
+    "b": {
+      "name": "Catar",
+      "code": "QAT"
+    },
+    "venue": "BC Place Vancouver",
+    "datetime": "Jue 18 Jun 2026",
+    "kickoff": "2026-06-18T19:00:00Z"
+  },
+  {
+    "id": "SUI-vs-CAN",
+    "stage": "Grupo B · J3",
+    "a": {
+      "name": "Suiza",
+      "code": "SUI"
+    },
+    "b": {
+      "name": "Canadá",
+      "code": "CAN"
+    },
+    "venue": "BC Place Vancouver",
+    "datetime": "Mié 24 Jun 2026",
+    "kickoff": "2026-06-24T17:00:00Z"
+  },
+  {
+    "id": "BRA-vs-MAR",
+    "stage": "Grupo C · J1",
+    "a": {
+      "name": "Brasil",
+      "code": "BRA"
+    },
+    "b": {
+      "name": "Marruecos",
+      "code": "MAR"
+    },
+    "venue": "New York New Jersey Stadium",
+    "datetime": "Sáb 13 Jun 2026",
+    "kickoff": "2026-06-13T18:00:00Z"
+  },
+  {
+    "id": "BRA-vs-HAI",
+    "stage": "Grupo C · J2",
+    "a": {
+      "name": "Brasil",
+      "code": "BRA"
+    },
+    "b": {
+      "name": "Haití",
+      "code": "HAI"
+    },
+    "venue": "Philadelphia Stadium",
+    "datetime": "Vie 19 Jun 2026",
+    "kickoff": "2026-06-19T17:00:00Z"
+  },
+  {
+    "id": "SCO-vs-BRA",
+    "stage": "Grupo C · J3",
+    "a": {
+      "name": "Escocia",
+      "code": "SCO"
+    },
+    "b": {
+      "name": "Brasil",
+      "code": "BRA"
+    },
+    "venue": "Miami Stadium",
+    "datetime": "Mié 24 Jun 2026",
+    "kickoff": "2026-06-24T21:00:00Z"
+  },
+  {
+    "id": "USA-vs-PAR",
+    "stage": "Grupo D · J1",
+    "a": {
+      "name": "Estados Unidos",
+      "code": "USA"
+    },
+    "b": {
+      "name": "Paraguay",
+      "code": "PAR"
+    },
+    "venue": "Los Angeles Stadium",
+    "datetime": "Vie 12 Jun 2026",
+    "kickoff": "2026-06-12T21:00:00Z"
+  },
+  {
+    "id": "USA-vs-AUS",
+    "stage": "Grupo D · J2",
+    "a": {
+      "name": "Estados Unidos",
+      "code": "USA"
+    },
+    "b": {
+      "name": "Australia",
+      "code": "AUS"
+    },
+    "venue": "Seattle Stadium",
+    "datetime": "Vie 19 Jun 2026",
+    "kickoff": "2026-06-19T21:00:00Z"
+  },
+  {
+    "id": "TUR-vs-USA",
+    "stage": "Grupo D · J3",
+    "a": {
+      "name": "Turquía",
+      "code": "TUR"
+    },
+    "b": {
+      "name": "Estados Unidos",
+      "code": "USA"
+    },
+    "venue": "Los Angeles Stadium",
+    "datetime": "Jue 25 Jun 2026",
+    "kickoff": "2026-06-25T19:00:00Z"
+  },
+  {
+    "id": "IRN-vs-NZL",
+    "stage": "Grupo G · J1",
+    "a": {
+      "name": "Irán",
+      "code": "IRN"
+    },
+    "b": {
+      "name": "Nueva Zelanda",
+      "code": "NZL"
+    },
+    "venue": "Los Angeles Stadium",
+    "datetime": "Lun 15 Jun 2026",
+    "kickoff": "2026-06-15T17:00:00Z"
+  },
+  {
+    "id": "NZL-vs-EGY",
+    "stage": "Grupo G · J2",
+    "a": {
+      "name": "Nueva Zelanda",
+      "code": "NZL"
+    },
+    "b": {
+      "name": "Egipto",
+      "code": "EGY"
+    },
+    "venue": "BC Place Vancouver",
+    "datetime": "Dom 21 Jun 2026",
+    "kickoff": "2026-06-21T17:00:00Z"
+  },
+  {
+    "id": "NZL-vs-BEL",
+    "stage": "Grupo G · J3",
+    "a": {
+      "name": "Nueva Zelanda",
+      "code": "NZL"
+    },
+    "b": {
+      "name": "Bélgica",
+      "code": "BEL"
+    },
+    "venue": "BC Place Vancouver",
+    "datetime": "Vie 26 Jun 2026",
+    "kickoff": "2026-06-26T17:00:00Z"
+  },
+  {
+    "id": "ESP-vs-CPV",
+    "stage": "Grupo H · J1",
+    "a": {
+      "name": "España",
+      "code": "ESP"
+    },
+    "b": {
+      "name": "Cabo Verde",
+      "code": "CPV"
+    },
+    "venue": "Atlanta Stadium",
+    "datetime": "Lun 15 Jun 2026",
+    "kickoff": "2026-06-15T21:00:00Z"
+  },
+  {
+    "id": "ESP-vs-KSA",
+    "stage": "Grupo H · J2",
+    "a": {
+      "name": "España",
+      "code": "ESP"
+    },
+    "b": {
+      "name": "Arabia Saudita",
+      "code": "KSA"
+    },
+    "venue": "Atlanta Stadium",
+    "datetime": "Dom 21 Jun 2026",
+    "kickoff": "2026-06-21T21:00:00Z"
+  },
+  {
+    "id": "URU-vs-ESP",
+    "stage": "Grupo H · J3",
+    "a": {
+      "name": "Uruguay",
+      "code": "URU"
+    },
+    "b": {
+      "name": "España",
+      "code": "ESP"
+    },
+    "venue": "Estadio Guadalajara",
+    "datetime": "Vie 26 Jun 2026",
+    "kickoff": "2026-06-26T19:00:00Z"
+  },
+  {
+    "id": "FRA-vs-SEN",
+    "stage": "Grupo I · J1",
+    "a": {
+      "name": "Francia",
+      "code": "FRA"
+    },
+    "b": {
+      "name": "Senegal",
+      "code": "SEN"
+    },
+    "venue": "New York New Jersey Stadium",
+    "datetime": "Mar 16 Jun 2026",
+    "kickoff": "2026-06-16T17:00:00Z"
+  },
+  {
+    "id": "FRA-vs-IRQ",
+    "stage": "Grupo I · J2",
+    "a": {
+      "name": "Francia",
+      "code": "FRA"
+    },
+    "b": {
+      "name": "Irak",
+      "code": "IRQ"
+    },
+    "venue": "Philadelphia Stadium",
+    "datetime": "Lun 22 Jun 2026",
+    "kickoff": "2026-06-22T17:00:00Z"
+  },
+  {
+    "id": "NOR-vs-FRA",
+    "stage": "Grupo I · J3",
+    "a": {
+      "name": "Noruega",
+      "code": "NOR"
+    },
+    "b": {
+      "name": "Francia",
+      "code": "FRA"
+    },
+    "venue": "Boston Stadium",
+    "datetime": "Vie 26 Jun 2026",
+    "kickoff": "2026-06-26T21:00:00Z"
+  },
+  {
+    "id": "ARG-vs-ALG",
+    "stage": "Grupo J · J1",
+    "a": {
+      "name": "Argentina",
+      "code": "ARG"
+    },
+    "b": {
+      "name": "Argelia",
+      "code": "ALG"
+    },
+    "venue": "Kansas City Stadium",
+    "datetime": "Mar 16 Jun 2026",
+    "kickoff": "2026-06-16T21:00:00Z"
+  },
+  {
+    "id": "ARG-vs-AUT",
+    "stage": "Grupo J · J2",
+    "a": {
+      "name": "Argentina",
+      "code": "ARG"
+    },
+    "b": {
+      "name": "Austria",
+      "code": "AUT"
+    },
+    "venue": "Dallas Stadium",
+    "datetime": "Lun 22 Jun 2026",
+    "kickoff": "2026-06-22T21:00:00Z"
+  },
+  {
+    "id": "JOR-vs-ARG",
+    "stage": "Grupo J · J3",
+    "a": {
+      "name": "Jordania",
+      "code": "JOR"
+    },
+    "b": {
+      "name": "Argentina",
+      "code": "ARG"
+    },
+    "venue": "Dallas Stadium",
+    "datetime": "Sáb 27 Jun 2026",
+    "kickoff": "2026-06-27T17:00:00Z"
+  },
+  {
+    "id": "POR-vs-COD",
+    "stage": "Grupo K · J1",
+    "a": {
+      "name": "Portugal",
+      "code": "POR"
+    },
+    "b": {
+      "name": "RD Congo",
+      "code": "COD"
+    },
+    "venue": "Houston Stadium",
+    "datetime": "Mié 17 Jun 2026",
+    "kickoff": "2026-06-17T16:00:00Z"
+  },
+  {
+    "id": "UZB-vs-COL",
+    "stage": "Grupo K · J1",
+    "a": {
+      "name": "Uzbekistán",
+      "code": "UZB"
+    },
+    "b": {
+      "name": "Colombia",
+      "code": "COL"
+    },
+    "venue": "Mexico City Stadium",
+    "datetime": "Mié 17 Jun 2026",
+    "kickoff": "2026-06-17T18:00:00Z"
+  },
+  {
+    "id": "POR-vs-UZB",
+    "stage": "Grupo K · J2",
+    "a": {
+      "name": "Portugal",
+      "code": "POR"
+    },
+    "b": {
+      "name": "Uzbekistán",
+      "code": "UZB"
+    },
+    "venue": "Houston Stadium",
+    "datetime": "Mar 23 Jun 2026",
+    "kickoff": "2026-06-23T16:00:00Z"
+  },
+  {
+    "id": "COL-vs-COD",
+    "stage": "Grupo K · J2",
+    "a": {
+      "name": "Colombia",
+      "code": "COL"
+    },
+    "b": {
+      "name": "RD Congo",
+      "code": "COD"
+    },
+    "venue": "Estadio Guadalajara",
+    "datetime": "Mar 23 Jun 2026",
+    "kickoff": "2026-06-23T18:00:00Z"
+  },
+  {
+    "id": "COL-vs-POR",
+    "stage": "Grupo K · J3",
+    "a": {
+      "name": "Colombia",
+      "code": "COL"
+    },
+    "b": {
+      "name": "Portugal",
+      "code": "POR"
+    },
+    "venue": "Miami Stadium",
+    "datetime": "Sáb 27 Jun 2026",
+    "kickoff": "2026-06-27T19:00:00Z"
+  },
+  {
+    "id": "GHA-vs-PAN",
+    "stage": "Grupo L · J1",
+    "a": {
+      "name": "Ghana",
+      "code": "GHA"
+    },
+    "b": {
+      "name": "Panamá",
+      "code": "PAN"
+    },
+    "venue": "Toronto Stadium",
+    "datetime": "Mié 17 Jun 2026",
+    "kickoff": "2026-06-17T20:00:00Z"
+  },
+  {
+    "id": "ENG-vs-CRO",
+    "stage": "Grupo L · J1",
+    "a": {
+      "name": "Inglaterra",
+      "code": "ENG"
+    },
+    "b": {
+      "name": "Croacia",
+      "code": "CRO"
+    },
+    "venue": "Dallas Stadium",
+    "datetime": "Mié 17 Jun 2026",
+    "kickoff": "2026-06-17T22:00:00Z"
+  },
+  {
+    "id": "ENG-vs-GHA",
+    "stage": "Grupo L · J2",
+    "a": {
+      "name": "Inglaterra",
+      "code": "ENG"
+    },
+    "b": {
+      "name": "Ghana",
+      "code": "GHA"
+    },
+    "venue": "Boston Stadium",
+    "datetime": "Mar 23 Jun 2026",
+    "kickoff": "2026-06-23T20:00:00Z"
+  },
+  {
+    "id": "PAN-vs-CRO",
+    "stage": "Grupo L · J2",
+    "a": {
+      "name": "Panamá",
+      "code": "PAN"
+    },
+    "b": {
+      "name": "Croacia",
+      "code": "CRO"
+    },
+    "venue": "Toronto Stadium",
+    "datetime": "Mar 23 Jun 2026",
+    "kickoff": "2026-06-23T22:00:00Z"
+  },
+  {
+    "id": "PAN-vs-ENG",
+    "stage": "Grupo L · J3",
+    "a": {
+      "name": "Panamá",
+      "code": "PAN"
+    },
+    "b": {
+      "name": "Inglaterra",
+      "code": "ENG"
+    },
+    "venue": "New York New Jersey Stadium",
+    "datetime": "Sáb 27 Jun 2026",
+    "kickoff": "2026-06-27T21:00:00Z"
   }
 ]

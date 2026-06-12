@@ -4,6 +4,7 @@ import path from "path";
 import { config } from "./config.js";
 import { research } from "./research.js";
 import { renderMatch } from "./render.js";
+import { getForm, getHeadToHead, getFixtureResult } from "./sportsdata.js";
 
 const args = process.argv.slice(2);
 const ALL = args.includes("--all");
@@ -37,6 +38,31 @@ for (const fx of fixtures) {
   }
 }
 
+// Trae datos verificados de API-Football (si hay API_SPORTS_KEY y el dato ya
+// existe). Devuelve null si no aplica — research() cae a búsqueda web normal.
+async function getOfficialData(fx, mode) {
+  try {
+    if (mode === "previa") {
+      const [formA, formB, h2h] = await Promise.all([
+        getForm(fx.a.code),
+        getForm(fx.b.code),
+        getHeadToHead(fx.a.code, fx.b.code)
+      ]);
+      if (!formA && !formB && !h2h) return null;
+      const out = {};
+      if (formA) out.formA = formA;
+      if (formB) out.formB = formB;
+      if (h2h) out.h2h = h2h;
+      return out;
+    } else {
+      return await getFixtureResult(fx.a.code, fx.b.code, fx.kickoff);
+    }
+  } catch (err) {
+    console.error(`  ⚠ API-Sports falló para ${fx.id} [${mode}]: ${err.message}`);
+    return null;
+  }
+}
+
 if (jobs.length === 0) {
   console.log(
     `Nada que generar ahora.\n` +
@@ -50,9 +76,11 @@ console.log(`Tareas: ${jobs.length}`);
 for (const { fx, mode, dir } of jobs) {
   console.log(`\n▶ ${fx.id} [${mode}] — investigando...`);
   try {
+    const officialData = await getOfficialData(fx, mode);
     const data = await research(
       { a: fx.a, b: fx.b, stage: fx.stage, datetime: fx.datetime, venue: fx.venue },
-      mode
+      mode,
+      officialData
     );
     fs.mkdirSync(dir, { recursive: true });
     fs.writeFileSync(path.join(dir, "match.json"), JSON.stringify(data, null, 2));

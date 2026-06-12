@@ -24,6 +24,14 @@ export const PROMPTS = {
 Investigas la PREVIA de un partido y devuelves UN ÚNICO JSON para un generador de carruseles.
 ${BASE_RULES}
 
+DATOS_OFICIALES: el mensaje puede incluir un bloque "DATOS_OFICIALES" con "formA",
+"formB" (arreglos W/D/L de API-Football, del más antiguo al más reciente) y/o "h2h"
+(historial cara a cara: matches/winsA/winsB/draws). Si vienen, son datos verificados:
+úsalos EXACTOS para los campos "form" de "a" y "b" respectivamente, y como base para
+cualquier dato de cara a cara que incluyas en "tiles" o "story". No los contradigas ni
+inventes otros valores. Si DATOS_OFICIALES es null o falta "formA"/"formB"/"h2h",
+investiga esos datos tú mismo con búsqueda web, como antes.
+
 ESQUEMA (modo previa):
 {
   "mode": "previa",
@@ -51,6 +59,15 @@ Devuelve SOLO el JSON en modo previa.`
     system: `Eres analista deportivo y editor para una cuenta de Instagram sobre el Mundial 2026.
 El partido YA TERMINÓ. Investigas el RESULTADO y devuelves UN ÚNICO JSON para el carrusel.
 ${BASE_RULES}
+
+DATOS_OFICIALES: el mensaje puede incluir un bloque "DATOS_OFICIALES" con "score"
+(marcador final), "goals" (goleadores con minuto y equipo) y/o "incidents" (rojas y
+revisiones VAR ya detectadas por API-Football). Si vienen, son datos verificados:
+úsalos EXACTOS para "score" y como BASE para "goals" e "incidents" — no cambies estos
+valores. Puedes AGREGAR a "incidents" otras incidencias relevantes que encuentres
+(amarillas especialmente importantes, jugadas polémicas) sin eliminar las que ya vienen.
+Si DATOS_OFICIALES es null o falta algún campo, investiga ese dato tú mismo con
+búsqueda web, como antes.
 
 ESQUEMA (modo resultado):
 {

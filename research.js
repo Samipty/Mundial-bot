@@ -5,17 +5,22 @@ import { config } from "./config.js";
 
 const client = new Anthropic(); // usa la variable de entorno ANTHROPIC_API_KEY
 
-export async function research(match, mode) {
+export async function research(match, mode, officialData) {
   const p = PROMPTS[mode];
   if (!p) throw new Error(`Modo desconocido: ${mode}`);
   const m = { ...match, account: match.account || config.account };
+
+  let userText = p.user(m);
+  userText += officialData
+    ? `\n\nDATOS_OFICIALES (verificados, API-Football — úsalos tal cual, no los contradigas):\n${JSON.stringify(officialData, null, 2)}`
+    : `\n\nDATOS_OFICIALES: no disponibles para este partido todavía. Investiga estos datos por tu cuenta con búsqueda web.`;
 
   const msg = await client.messages.create({
     model: config.model,
     max_tokens: 4096,
     system: p.system,
     tools: [{ type: "web_search_20250305", name: "web_search", max_uses: 8 }],
-    messages: [{ role: "user", content: p.user(m) }]
+    messages: [{ role: "user", content: userText }]
   });
 
   const text = msg.content

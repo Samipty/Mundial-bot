@@ -1,4 +1,11 @@
 // Ajustes generales. Edita esto y nada más para personalizar.
+//
+// Variables de entorno usadas:
+//   ANTHROPIC_API_KEY  (obligatoria) — investigación con Claude.
+//   API_SPORTS_KEY     (opcional)    — datos verificados de API-Football
+//                                      (forma, h2h, marcador, goles, rojas/VAR).
+//                                      Sin ella, todo sigue funcionando solo
+//                                      con búsqueda web, como antes.
 export const config = {
   account: "@mundialaldia",
 
