@@ -14,6 +14,10 @@ const COMMON_SCHEMA = `Campos comunes:
 "story": { "kicker","head"(*resalta*),"body","num","lab","sub" },
 "quotes": [ { "text","who","role","team":"a"|"b" } ],
 "tiles": [ { "num","lab","sub" } x3 ],
+"caption": string — pie de foto para Instagram (2-4 líneas + hashtags al final).
+  Gancho propio (no copies "headline" literal), tono conversacional. Hashtags:
+  ambos países/selecciones, #Mundial2026, y 2-3 más ligados al ángulo de la historia.
+  Sin instrucciones de interfaz ("deslizá", "swipe").
 "slides": objeto de booleanos.
 "head"/"headline" usan \\n para saltos y *asteriscos* para resaltar 1-2 palabras.
 Usa colores distintos para a y b. Titulares de 3-4 líneas máx.`;

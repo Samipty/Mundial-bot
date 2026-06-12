@@ -127,6 +127,30 @@ La primera vez que corre, el bot guarda en `cache/team-ids.json` el mapeo de
 selecciones a IDs de API-Football (para no repetir esa llamada). Ese archivo
 se sube al repo igual que `salida/`.
 
+## Publicar en Instagram automáticamente con Buffer (opcional)
+
+Si conectaste tu Instagram a Buffer y tienes tu clave personal de Buffer, el
+bot puede enviar cada carrusel nuevo como **borrador** a tu cola de Buffer —
+no se publica solo, queda esperando tu aprobación en la app de Buffer
+(celular o web).
+
+Para activarlo, un Secret más en GitHub:
+
+- **Settings → Secrets and variables → Actions → New repository secret**
+- Nombre: `BUFFER_API_KEY`   Valor: tu clave personal de Buffer
+
+El canal de Instagram (`bufferChannelId`) ya está configurado en `config.js`
+para `@caraocruzfutbol`. Si alguna vez cambias de cuenta, vuelve a correr
+`discover-buffer.js` para obtener el nuevo ID y actualízalo ahí.
+
+Cada carrusel enviado guarda un `buffer.json` en su carpeta (con el ID del
+borrador) para no enviarlo dos veces. Las imágenes se sirven directo desde
+el repo (`raw.githubusercontent.com`), así que el repositorio debe ser
+**público** — ya lo es.
+
+Si no agregas este Secret, todo sigue exactamente igual que antes: el bot
+genera los PNG y tú los revisas/subes manualmente.
+
 ## Notas
 
 - `generator.html` es el motor con sus DOS modos (previa/resultado). Si lo
