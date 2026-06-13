@@ -28,7 +28,6 @@ jobs:
         env:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
           API_SPORTS_KEY: ${{ secrets.API_SPORTS_KEY }}
-          BUFFER_API_KEY: ${{ secrets.BUFFER_API_KEY }}
         run: node run.js
 
       - name: Guardar resultados en el repo
@@ -37,4 +36,15 @@ jobs:
           git config user.email "mundial-bot@users.noreply.github.com"
           git add salida/ cache/
           git diff --staged --quiet || git commit -m "Carruseles generados $(date -u +'%Y-%m-%d %H:%M UTC')"
+          git push
+
+      - name: Enviar borradores nuevos a Buffer
+        env:
+          BUFFER_API_KEY: ${{ secrets.BUFFER_API_KEY }}
+        run: node publish.js
+
+      - name: Guardar marcadores de Buffer en el repo
+        run: |
+          git add salida/
+          git diff --staged --quiet || git commit -m "Marcar carruseles enviados a Buffer"
           git push

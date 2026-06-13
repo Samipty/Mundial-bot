@@ -93,3 +93,30 @@ export async function sendToBuffer(dir, match) {
     console.error(`  ⚠ Buffer no aceptó el carrusel: ${err || "respuesta inesperada"}`);
   }
 }
+
+// Modo CLI (node publish.js): recorre salida/ y envía a Buffer los carruseles
+// que aún no tengan buffer.json. Este paso va DESPUÉS del "git push" en el
+// workflow, para que las imágenes ya existan en raw.githubusercontent.com
+// cuando Buffer intente leerlas.
+const isMain = path.resolve(process.argv[1] || "") === path.resolve(new URL(import.meta.url).pathname);
+if (isMain) {
+  const base = "./salida";
+  if (!fs.existsSync(base)) {
+    console.log("Nada en salida/ todavía.");
+  } else {
+    let sent = 0;
+    for (const matchId of fs.readdirSync(base)) {
+      for (const mode of ["previa", "resultado"]) {
+        const dir = path.join(base, matchId, mode);
+        const matchPath = path.join(dir, "match.json");
+        if (!fs.existsSync(matchPath)) continue;
+        if (fs.existsSync(path.join(dir, "buffer.json"))) continue;
+        const match = JSON.parse(fs.readFileSync(matchPath, "utf8"));
+        console.log(`\n▶ ${matchId} [${mode}] — enviando a Buffer...`);
+        await sendToBuffer(dir, match);
+        if (fs.existsSync(path.join(dir, "buffer.json"))) sent++;
+      }
+    }
+    console.log(`\n✅ Listo. ${sent} carrusel(es) nuevo(s) enviados a Buffer.`);
+  }
+}

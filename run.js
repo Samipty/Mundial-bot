@@ -5,7 +5,6 @@ import { config } from "./config.js";
 import { research } from "./research.js";
 import { renderMatch } from "./render.js";
 import { getForm, getHeadToHead, getFixtureResult } from "./sportsdata.js";
-import { sendToBuffer } from "./publish.js";
 
 const args = process.argv.slice(2);
 const ALL = args.includes("--all");
@@ -87,16 +86,12 @@ for (const { fx, mode, dir } of jobs) {
     fs.writeFileSync(path.join(dir, "match.json"), JSON.stringify(data, null, 2));
     const files = await renderMatch(data, config.generatorPath, dir);
     console.log(`  ✓ ${files.length} PNG en ${dir}`);
-    await sendToBuffer(dir, data);
   } catch (err) {
     console.error(`  ✗ Error en ${fx.id} [${mode}]: ${err.message}`);
   }
 }
 
-const bufferNote = process.env.BUFFER_API_KEY
-  ? `   Los carruseles nuevos ya quedaron como borrador en Buffer — revisa y aprueba ahí.`
-  : `   aprueba y publica (paso manual por ahora).`;
-
 console.log(
-  `\n✅ Listo. Revisa "${config.outDir}/<partido>/previa" y "/resultado",\n${bufferNote}`
+  `\n✅ Listo. Revisa "${config.outDir}/<partido>/previa" y "/resultado".\n` +
+  `   (El envío a Buffer, si aplica, es el siguiente paso del workflow.)`
 );
