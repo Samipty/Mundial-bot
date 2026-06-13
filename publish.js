@@ -52,25 +52,34 @@ export async function sendToBuffer(dir, match) {
     .map((s) => `{ image: { url: ${JSON.stringify(`${REPO_RAW_BASE}/${relDir}/${s}`)} } }`)
     .join(",\n        ");
 
-  let text = match.caption || "";
+  const text = match.caption || "";
   const music = match.musicSuggestion;
-  if (music?.song && music?.artist) {
-    text = `🎵 [Para Buffer: agrega "${music.song}" de ${music.artist} en el campo de música, y borra esta línea]\n\n${text}`;
-  }
+
+  // Si hay sugerencia de música, va en el "sticker" de música de Instagram
+  // (campo de texto libre en Buffer) en vez del caption. Elegir un sticker de
+  // música cambia el post a modo "Notify Me" (schedulingType: notification):
+  // Buffer no puede adjuntar la canción real (limitación de la API de
+  // Instagram), así que te avisa por notificación para que la agregues tú
+  // mismo en la app de Instagram al finalizar la publicación.
+  const instagramMeta =
+    music?.song && music?.artist
+      ? `{ type: post, shouldShareToFeed: true, stickerFields: { music: ${JSON.stringify(`${music.song} - ${music.artist}`)} } }`
+      : `{ type: post, shouldShareToFeed: true }`;
+  const schedulingType = music?.song && music?.artist ? "notification" : "automatic";
 
   const query = `
     mutation SendToBuffer {
       createPost(input: {
         text: ${JSON.stringify(text)},
         channelId: "${config.bufferChannelId}",
-        schedulingType: automatic,
+        schedulingType: ${schedulingType},
         mode: addToQueue,
         saveToDraft: true,
         assets: [
           ${assets}
         ],
         metadata: {
-          instagram: { type: post, shouldShareToFeed: true }
+          instagram: ${instagramMeta}
         }
       }) {
         ... on PostActionSuccess { post { id } }
