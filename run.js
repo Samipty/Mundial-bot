@@ -78,7 +78,7 @@ for (const { fx, mode, dir } of jobs) {
   try {
     const officialData = await getOfficialData(fx, mode);
     const data = await research(
-      { a: fx.a, b: fx.b, stage: fx.stage, datetime: fx.datetime, venue: fx.venue },
+      { a: fx.a, b: fx.b, stage: fx.stage, datetime: fx.datetime, venue: fx.venue, account: config.account },
       mode,
       officialData
     );
