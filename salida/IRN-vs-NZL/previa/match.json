@@ -1,0 +1,102 @@
+{
+  "mode": "previa",
+  "account": "@caraocruzfutbol",
+  "competition": "Copa Mundial FIFA 2026 · Grupo G · Jornada 1",
+  "datetime": "2026-06-15T20:00:00-07:00",
+  "venue": "SoFi Stadium, Los Ángeles",
+  "a": {
+    "name": "Irán",
+    "code": "IRN",
+    "color": "#009579",
+    "form": [
+      "W",
+      "L",
+      "W",
+      "W",
+      "W"
+    ],
+    "star": "Mehdi Taremi"
+  },
+  "b": {
+    "name": "Nueva Zelanda",
+    "code": "NZL",
+    "color": "#FFFFFF",
+    "form": [
+      "L",
+      "L",
+      "W",
+      "L",
+      "L"
+    ],
+    "star": "Chris Wood"
+  },
+  "formula": "stakes",
+  "headline": "EL DEBUT\nque no pueden\n*PERDER*",
+  "hookLine": "Irán llega en llamas. Nueva Zelanda regresa 16 años después. Solo uno arranca el sueño.",
+  "teaser": "El Grupo G tiene trampa: Bélgica y Egipto esperan en la sombra. Esta primera jornada puede definir quién tiene opciones reales de pasar. Para Irán, es el partido más asequible del grupo. Para los All Whites, es la única ventana que se puede abrir.",
+  "story": {
+    "kicker": "Grupo G · J1 · Los Ángeles",
+    "head": "El debut que\nno pueden\n*perder*",
+    "body": "Irán llega al Mundial más cargado que nunca: visados denegados, base en Tijuana, la sombra de la guerra y la ausencia de Azmoun. Pero en el campo, el Team Melli es el favorito claro de este duelo. Nueva Zelanda regresa a un Mundial por primera vez en 16 años con el sueño intacto y un capitán que se recuperó de una lesión de rodilla para estar aquí. Ambos buscan el mismo boleto: los octavos de final que nunca han alcanzado.",
+    "num": "7ª",
+    "lab": "participación de Irán",
+    "sub": "Nunca pasó de grupos en ninguna de las seis anteriores"
+  },
+  "quotes": [
+    {
+      "text": "Ha pasado mucho tiempo, 16 años, desde que estuvimos en un Mundial. No puedo esperar para compartir el momento con este equipo y ojalá crear historia.",
+      "who": "Chris Wood",
+      "role": "Capitán y máximo goleador histórico de Nueva Zelanda",
+      "team": "b"
+    },
+    {
+      "text": "Los pasos del Gobierno de EE.UU. han creado una atmósfera tensa alrededor del torneo.",
+      "who": "Mehdi Taremi",
+      "role": "Capitán y delantero estrella de Irán",
+      "team": "a"
+    },
+    {
+      "text": "Ningún país puede excluirnos de una competencia organizada por la FIFA.",
+      "who": "Federación Iraní de Fútbol",
+      "role": "Comunicado oficial previo al Mundial 2026",
+      "team": "a"
+    }
+  ],
+  "tiles": [
+    {
+      "num": "60",
+      "lab": "Goles de Taremi con Irán",
+      "sub": "Escoltado por Jahanbakhsh (17). Wood tiene 45 con NZL, casi la mitad de los 109 totales del plantel."
+    },
+    {
+      "num": "0",
+      "lab": "Victorias de NZL en Mundiales",
+      "sub": "6 partidos, 3 empates y 3 derrotas. En 2010 salieron invictos con tres empates, sin ganar."
+    },
+    {
+      "num": "14",
+      "lab": "Miembros de la delegación iraní sin visa",
+      "sub": "Irán se vio obligado a establecer su campamento base en Tijuana, México."
+    }
+  ],
+  "caption": "🇮🇷 Irán vs. Nueva Zelanda 🇳🇿\nEl debut más cargado del Grupo G. Irán llega con Taremi encendido y tensiones geopolíticas de fondo. Los All Whites regresan al Mundial 16 años después con Chris Wood de capitán y cuentas pendientes.\n¿Quién da el primer golpe en Los Ángeles?\n#Iran #NuevaZelanda #AllWhites #TeamMelli #Mundial2026 #GrupoG #FIFAWorldCup2026",
+  "musicSuggestion": {
+    "song": "Yalda",
+    "artist": "Darya (artista iraní-canadiense)"
+  },
+  "aInj": "Sardar Azmoun — excluido de la convocatoria por razones políticas",
+  "bInj": "Chris Wood — se recuperó de lesión de rodilla; regresó con tiempo justo para el Mundial",
+  "pred": {
+    "a": 2,
+    "b": 0,
+    "note": "Irán llega con mejor forma (4V en 5), mayor experiencia mundialista y el goleador más en forma del duelo. Nueva Zelanda concedió 9 goles en sus últimos 4 partidos previos al torneo."
+  },
+  "slides": {
+    "hook": true,
+    "story": true,
+    "quotes": true,
+    "stats": true,
+    "injuries": true,
+    "verdict": true
+  }
+}
