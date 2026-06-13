@@ -1,0 +1,163 @@
+{
+  "mode": "resultado",
+  "account": "@caraocruzfutbol",
+  "competition": "FIFA World Cup 2026 · Grupo D · Jornada 1",
+  "datetime": "2026-06-12T21:00:00-07:00",
+  "venue": "SoFi Stadium, Inglewood (Los Ángeles), California, EE.UU.",
+  "a": {
+    "name": "Estados Unidos",
+    "code": "USA",
+    "color": "#002868",
+    "form": [
+      "W",
+      "W",
+      "W",
+      "D",
+      "W"
+    ],
+    "star": "Folarin Balogun"
+  },
+  "b": {
+    "name": "Paraguay",
+    "code": "PAR",
+    "color": "#D52B1E",
+    "form": [
+      "L",
+      "D",
+      "L",
+      "W",
+      "L"
+    ],
+    "star": "Miguel Almirón"
+  },
+  "headline": "EE.UU. *GOLEA* en su\npropia fiesta:\n4-1 a Paraguay\nen Los Ángeles",
+  "hookLine": "Balogun histórico, Pulisic imperial y Reyna con el toque final: la USMNT manda un mensaje al mundo.",
+  "teaser": "El anfitrión debutó con su mejor actuación mundialista de la historia. Cuatro goles, dominio total y un Balogun que ya tiene nombre de leyenda.",
+  "score": {
+    "a": 4,
+    "b": 1
+  },
+  "goals": [
+    {
+      "minute": "7'",
+      "player": "Damián Bobadilla (p.p.)",
+      "team": "a"
+    },
+    {
+      "minute": "31'",
+      "player": "Folarin Balogun",
+      "team": "a"
+    },
+    {
+      "minute": "45'+5'",
+      "player": "Folarin Balogun",
+      "team": "a"
+    },
+    {
+      "minute": "73'",
+      "player": "Maurício Magalhães Prado",
+      "team": "b"
+    },
+    {
+      "minute": "90'+8'",
+      "player": "Gio Reyna",
+      "team": "a"
+    }
+  ],
+  "incidents": [
+    {
+      "minute": "9'",
+      "type": "amarilla",
+      "player": "Juan José Cáceres",
+      "team": "b",
+      "note": "Falta dura sobre Pulisic; frustración paraguaya en el arranque."
+    },
+    {
+      "minute": "~28'",
+      "type": "var",
+      "player": "Folarin Balogun",
+      "team": "a",
+      "note": "Gol anulado por fuera de juego de Pulisic en la jugada previa. El marcador seguía 1-0."
+    },
+    {
+      "minute": "~55'",
+      "type": "var",
+      "player": "Miguel Almirón",
+      "team": "b",
+      "note": "Revisión de 'Mistaken Identity': la amarilla se redirigió de Tim Ream a Almirón tras confirmarse que el paraguayo simuló una falta. Momento histórico con la nueva regla FIFA."
+    },
+    {
+      "minute": "HT",
+      "type": "polemica",
+      "player": "Christian Pulisic",
+      "team": "a",
+      "note": "Pulisic sale al descanso por precaución tras recibir un golpe en la pantorrilla. Generó incertidumbre sobre su disponibilidad para el resto del torneo."
+    }
+  ],
+  "figura": {
+    "name": "Folarin Balogun",
+    "team": "a",
+    "role": "Delantero centro (AS Monaco)",
+    "stat": "2 goles (31' y 45'+5'), primer estadounidense con doblete mundialista desde Bert Patenaude en 1930."
+  },
+  "story": {
+    "kicker": "Mundial 2026 · Grupo D · J1",
+    "head": "La noche que la USMNT *rugió* en casa",
+    "body": "Con Tom Cruise, David Beckham y George Lucas en las tribunas del SoFi Stadium, Estados Unidos no necesitó apoyo estelar extra: su propio once fue la atracción. Pulisic desbordó y asistió hasta que un golpe en la pantorrilla lo obligó a retirarse al descanso. Balogun marcó dos veces en el primer tiempo para entrar en la historia. Paraguay solo pudo descontar a través de Maurício en el 73', pero Gio Reyna, recién ingresado, rubricó la goleada con una trivela inatajable en el tiempo añadido. Un arranque de ensueño para el anfitrión.",
+    "num": "4",
+    "lab": "Goles de EE.UU.",
+    "sub": "Récord histórico de goles en un solo partido mundialista para la USMNT"
+  },
+  "quotes": [
+    {
+      "text": "Tuvimos verticalidad y posesión del balón. Fuimos agresivos en el último tercio, lo que nos dio posibilidad de generar peligro.",
+      "who": "Mauricio Pochettino",
+      "role": "DT, Selección EE.UU.",
+      "team": "a"
+    },
+    {
+      "text": "Creo que habla muy bien de la química que tenemos como equipo. Hemos trabajado para estar así de unidos y peleamos uno por el otro.",
+      "who": "Ricardo Pepi",
+      "role": "Delantero, Selección EE.UU.",
+      "team": "a"
+    },
+    {
+      "text": "I'm really hoping that it's nothing. Taking a little bit of precaution today.",
+      "who": "Christian Pulisic",
+      "role": "Capitán, Selección EE.UU.",
+      "team": "a"
+    }
+  ],
+  "tiles": [
+    {
+      "num": "63%",
+      "lab": "Posesión EE.UU.",
+      "sub": "Paraguay solo controló el 37% del balón"
+    },
+    {
+      "num": "17-8",
+      "lab": "Remates",
+      "sub": "EE.UU. superó ampliamente a Paraguay en intentos al arco"
+    },
+    {
+      "num": "5-1",
+      "lab": "Remates a puerta",
+      "sub": "El portero paraguayo Orlando Gil realizó 4 atajadas clave"
+    }
+  ],
+  "caption": "¿Qué fue lo más espectacular de la noche en Los Ángeles? 🇺🇸\nBalogun histórico, Pulisic magnético y Reyna con una trivela de otro mundo. EE.UU. le envió un mensaje al planeta: este Mundial es en serio.\nParaguay, que volvió a un Mundial después de 16 años, se va con la cara en alto gracias al descuento de Maurício — pero la goleada no admite discusión.\n#USMNT #Paraguay #Mundial2026 #FIFAWorldCup2026 #GrupoD #Balogun #GioReyna",
+  "musicSuggestion": {
+    "song": "BIRDS OF A FEATHER",
+    "artist": "Billie Eilish"
+  },
+  "closingNote": "Con este triunfo, EE.UU. lidera el Grupo D con 3 puntos y la mejor diferencia de goles (+3), marcando un nuevo récord histórico de goles en un partido mundialista. Los próximos rivales son Turquía (19 Jun, Seattle) y el ganador del playoff UEFA (25 Jun, SoFi). La gran duda para el próximo compromiso es la condición física de Christian Pulisic, que salió al descanso con molestias en la pantorrilla. Paraguay, que regresó a un Mundial por primera vez desde 2010, deberá reponerse ante Turquía el 19 de junio.",
+  "slides": {
+    "rhook": true,
+    "story": true,
+    "goals": true,
+    "incidentes": true,
+    "figura": true,
+    "stats": true,
+    "cierre": true
+  }
+}
