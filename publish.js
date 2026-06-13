@@ -52,7 +52,11 @@ export async function sendToBuffer(dir, match) {
     .map((s) => `{ image: { url: ${JSON.stringify(`${REPO_RAW_BASE}/${relDir}/${s}`)} } }`)
     .join(",\n        ");
 
-  const text = match.caption || "";
+  let text = match.caption || "";
+  const music = match.musicSuggestion;
+  if (music?.song && music?.artist) {
+    text = `🎵 [Para Buffer: agrega "${music.song}" de ${music.artist} en el campo de música, y borra esta línea]\n\n${text}`;
+  }
 
   const query = `
     mutation SendToBuffer {

@@ -18,6 +18,11 @@ const COMMON_SCHEMA = `Campos comunes:
   Gancho propio (no copies "headline" literal), tono conversacional. Hashtags:
   ambos países/selecciones, #Mundial2026, y 2-3 más ligados al ángulo de la historia.
   Sin instrucciones de interfaz ("deslizá", "swipe").
+"musicSuggestion": { "song": string, "artist": string } — una canción real,
+  popular y actual/reciente, de un artista del país de la selección "a" (o "b"
+  si tiene más sentido para el ángulo de la historia — ej. resultado: el equipo
+  que ganó o tuvo el mejor desempeño). Energética/festiva, ritmo de Mundial. No
+  necesita ser sobre fútbol, solo que el artista sea de ese país.
 "slides": objeto de booleanos.
 "head"/"headline" usan \\n para saltos y *asteriscos* para resaltar 1-2 palabras.
 Usa colores distintos para a y b. Titulares de 3-4 líneas máx.`;
