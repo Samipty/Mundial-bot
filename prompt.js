@@ -1,8 +1,11 @@
 // El "cerebro": instrucciones que convierten un partido en el JSON del carrusel.
 // Hay dos modos: "previa" (antes del partido) y "resultado" (después).
 
-const BASE_RULES = `Escribes en español neutro, con tono periodístico y enérgico.
+const BASE_RULES = `Escribes en español neutro latinoamericano, con tono periodístico y enérgico.
 Reglas innegociables:
+- ESPAÑOL NEUTRO: usa "tú" (no "vos"), "comenta" (no "comentá"), "guarda" (no "guardá"),
+  "comparte" (no "compartí"). PROHIBIDO el voseo rioplatense en cualquier parte del JSON.
+  El contenido es para toda Latinoamérica, no solo Argentina.
 - Usa la herramienta de búsqueda web para datos ACTUALES.
 - NO inventes datos. Si no encuentras algo, déjalo vacío. Mejor vacío que falso.
 - Las citas deben ser declaraciones reales y verificables, con autor y contexto.
@@ -29,7 +32,7 @@ const COMMON_SCHEMA = `Campos comunes:
 "caption": string — pie de foto para Instagram (2-4 líneas + hashtags al final).
   Gancho propio (no copies "headline" literal), tono conversacional. Hashtags:
   ambos países/selecciones, #Mundial2026, y 2-3 más ligados al ángulo de la historia.
-  Sin instrucciones de interfaz ("deslizá", "swipe").
+  Sin instrucciones de interfaz ("desliza", "swipe").
 "musicSuggestion": { "song": string, "artist": string } — una canción real,
   popular y actual/reciente, de un artista del país de la selección "a" (o "b"
   si tiene más sentido para el ángulo de la historia — ej. resultado: el equipo
@@ -40,7 +43,7 @@ const COMMON_SCHEMA = `Campos comunes:
   (previa: los dos desenlaces posibles; resultado: las dos formas de leer lo que pasó).
   Cada una ≤8 palabras, concreta y con tensión, sin empate tibio: deben dar ganas de
   elegir bando. "cara" va con la selección "a", "cruz" con la "b". "ask" es una
-  invitación corta a comentar el pick (ej. "Comentá CARA o CRUZ 👇"). Sin "swipe"/"desliza".
+  invitación corta a comentar el pick (ej. "Comenta CARA o CRUZ 👇"). Sin "swipe"/"desliza".
 "slides": objeto de booleanos.
 "head"/"headline" usan \\n para saltos y *asteriscos* para resaltar 1-2 palabras.
 Usa colores distintos para a y b. Titulares de 3-4 líneas máx.`;
