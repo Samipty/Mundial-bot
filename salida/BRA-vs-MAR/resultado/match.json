@@ -1,0 +1,119 @@
+{
+  "mode": "resultado",
+  "account": "@caraocruzfutbol",
+  "competition": "FIFA Mundial 2026 · Grupo C · Jornada 1",
+  "datetime": "2026-06-13T22:00:00Z",
+  "venue": "MetLife Stadium, East Rutherford, New Jersey",
+  "a": {
+    "name": "Brasil",
+    "code": "BRA",
+    "color": "#009C3B",
+    "form": [
+      "W",
+      "W",
+      "D",
+      "W",
+      "L"
+    ],
+    "star": "Vinicius Junior"
+  },
+  "b": {
+    "name": "Marruecos",
+    "code": "MAR",
+    "color": "#C1272D",
+    "form": [
+      "W",
+      "W",
+      "W",
+      "W",
+      "W"
+    ],
+    "star": "Ismael Saibari"
+  },
+  "headline": "LEONES QUE NO\nSE RINDEN\nBrasil 1 – 1 *Marruecos*\nNueva Jersey ardió",
+  "hookLine": "La Canarinha tropezó. Los Leones del Atlas no regalan nada.",
+  "teaser": "Saibari sorprendió al mundo con un golazo. Vinicius respondió con su firma personal. El Grupo C empieza sin favoritos claros.",
+  "score": {
+    "a": 1,
+    "b": 1
+  },
+  "goals": [
+    {
+      "minute": "21",
+      "player": "I. Saibari",
+      "team": "b"
+    },
+    {
+      "minute": "32",
+      "player": "Vinicius Junior",
+      "team": "a"
+    }
+  ],
+  "incidents": [],
+  "figura": {
+    "name": "Vinicius Junior",
+    "team": "a",
+    "role": "Extremo izquierdo",
+    "stat": "1 gol — vaselina al ángulo que salvó al pentacampeón del debut con derrota"
+  },
+  "story": {
+    "kicker": "Grupo C · Jornada 1",
+    "head": "MARRUECOS FRENÓ AL\n*GIGANTE* BRASILEÑO",
+    "body": "Ante 80.663 espectadores en MetLife Stadium, Marruecos demostró que la semifinal de Qatar 2022 no fue casualidad. Ismael Saibari, el mediocampista del PSV, rompió la defensa brasileña con una diagonal perfecta y un globito sobre Alisson en el minuto 21. Brasil, desorientado y opacado en la primera media hora, respondió solo gracias a la magia individual de Vinicius Junior: recibió en la izquierda, cortó hacia adentro y curvó un disparo al ángulo superior que Bounou no pudo hacer nada. El segundo tiempo fue un duelo de poder a poder con pocas llegadas claras — el calor y la humedad pasaron factura a ambos bandos. Ancelotti movió las piezas con Fabinho y Danilo, pero los Leones del Atlas aguantaron cada embestida. Empate justo en uno de los partidos más esperados de la fase de grupos.",
+    "num": "80.663",
+    "lab": "espectadores",
+    "sub": "en MetLife Stadium"
+  },
+  "quotes": [
+    {
+      "text": "\"Siento gran libertad y confianza sincera de Ancelotti: está seguro de que puedo hacer por la selección lo que hago en el Real Madrid.\"",
+      "who": "Vinicius Junior",
+      "role": "Extremo, Brasil",
+      "team": "a"
+    },
+    {
+      "text": "\"El miedo es bueno. Si vas sin miedo, te enfrentarás al león pensando que es un gato.\"",
+      "who": "Carlo Ancelotti",
+      "role": "Entrenador, Brasil",
+      "team": "a"
+    },
+    {
+      "text": "\"No hay nadie mejor que Vinicius Junior en lo que acaba de hacer. Es el mejor del mundo en eso.\"",
+      "who": "Dion Dublin",
+      "role": "Exdelantero de Inglaterra, comentarista BBC Radio 5 Live",
+      "team": "a"
+    }
+  ],
+  "tiles": [
+    {
+      "num": "27",
+      "lab": "remates totales",
+      "sub": "Solo 8 entre los tres palos en 90 minutos"
+    },
+    {
+      "num": "52%–48%",
+      "lab": "posesión",
+      "sub": "Brasil dominó el balón, Marruecos dominó los contragolpes"
+    },
+    {
+      "num": "1.22 vs 0.69",
+      "lab": "xG",
+      "sub": "Marruecos generó más peligro esperado que Brasil"
+    }
+  ],
+  "caption": "Brasil y Marruecos se repartieron puntos en New Jersey. Saibari tomó la delantera, Vinicius igualó con uno de los goles del torneo. Calor, intensidad y un empate que lo dice todo: en este Grupo C no hay equipo pequeño.\n\n#Brasil #Marruecos #BRA #MAR #Mundial2026 #FIFAWorldCup2026 #GrupoC #Vinicius #Saibari",
+  "musicSuggestion": {
+    "song": "Tá OK",
+    "artist": "MC Livinho"
+  },
+  "closingNote": "Con un punto cada uno, Brasil y Marruecos deberán sumar máximo ante Haití y Escocia (J2 y J3) para definir quién lidera el Grupo C. El goal average entre ambos podría ser el factor decisivo: quien más goles haga en los próximos duelos saldrá arriba. La presión de ganar el grupo recae sobre los dos.",
+  "slides": {
+    "rhook": true,
+    "story": true,
+    "goals": true,
+    "incidentes": false,
+    "figura": true,
+    "stats": true,
+    "cierre": true
+  }
+}
