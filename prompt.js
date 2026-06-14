@@ -9,8 +9,8 @@ Reglas innegociables:
 - La salida es SOLO el JSON. Sin texto antes ni después, sin comentarios.`;
 
 const COMMON_SCHEMA = `Campos comunes:
-"account", "competition", "datetime", "venue" (strings),
-"a"/"b": { "name", "code"(3 letras), "color"("#RRGGBB"), "form"(["W"|"D"|"L"]x5), "star" },
+"account", "competition" (copia EXACTA del campo "Fase" recibido, ej. "Grupo G · J1" — sin expandir), "datetime", "venue" (strings),
+"a"/"b": { "name", "code"(3 letras), "color"("#RRGGBB" — vibrante y visible sobre fondo oscuro #0A0E14; si el color del equipo es blanco o muy claro, usa su color secundario oscuro en su lugar), "form"(["W"|"D"|"L"]x5), "star" },
 "story": { "kicker","head"(*resalta*),"body","num","lab","sub" },
 "quotes": [ { "text","who","role","team":"a"|"b" } ],
 "tiles": [ { "num","lab","sub" } x3 ],

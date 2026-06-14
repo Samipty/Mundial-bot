@@ -6,6 +6,27 @@ import { research } from "./research.js";
 import { renderMatch } from "./render.js";
 import { getForm, getHeadToHead, getFixtureResult } from "./sportsdata.js";
 
+// Colores de selecciones — visibles sobre fondo oscuro #0A0E14.
+// Equipos con blanco/colores muy claros usan su color secundario oscuro.
+const TEAM_COLORS = {
+  ARG: "#74ACDF", BRA: "#F7B71D", MEX: "#006847", ESP: "#AA151B",
+  FRA: "#0055A4", POR: "#AD2020", COL: "#D4A017", ENG: "#003090",
+  PAN: "#DB0000", NZL: "#1A1A1A", USA: "#002868", CAN: "#CC0001",
+  IRN: "#239F40", MAR: "#C1272D", CPV: "#003893", KOR: "#003478",
+  CZE: "#D7141A", BIH: "#002395", PAR: "#D52B1E", RSA: "#007A4D",
+  AUS: "#00843D", NOR: "#EF2B2D", EGY: "#CC0001", BEL: "#EF3340",
+  HAI: "#00209F", QAT: "#8D1B3D", KSA: "#006C35", URU: "#5EB6E4",
+  JPN: "#BC002D", CRO: "#FF0000", SCO: "#003087", SUI: "#FF0000",
+  SEN: "#00853F", GHA: "#006B3F", TUR: "#E30A17", ALG: "#006233",
+  IRQ: "#CC0001", COD: "#007FFF", JOR: "#007A3D", UZB: "#1EB53A",
+};
+
+// Aplica colores canónicos a los equipos del partido.
+function applyColors(team) {
+  const color = TEAM_COLORS[team.code];
+  return color ? { ...team, color } : team;
+}
+
 const args = process.argv.slice(2);
 const ALL = args.includes("--all");
 const ONLY = args.includes("--previa") ? "previa" : args.includes("--resultado") ? "resultado" : null;
@@ -78,7 +99,7 @@ for (const { fx, mode, dir } of jobs) {
   try {
     const officialData = await getOfficialData(fx, mode);
     const data = await research(
-      { a: fx.a, b: fx.b, stage: fx.stage, datetime: fx.datetime, venue: fx.venue, account: config.account },
+      { a: applyColors(fx.a), b: applyColors(fx.b), stage: fx.stage, datetime: fx.datetime, venue: fx.venue, account: config.account },
       mode,
       officialData
     );

@@ -366,8 +366,8 @@ const mini=t=>`<div class="mini" style="background:${state[t].color}">${esc(stat
 const streak=t=>`<div class="streak">${state[t].form.map(f=>`<span class="${f}">${f}</span>`).join("")}</div>`;
 const vstag=()=>`<div class="vstag"><span class="pip" style="background:${state.a.color}">${esc((state.a.code||' ')[0])}</span>${esc(state.a.name)} <em>vs</em> <span class="pip" style="background:${state.b.color}">${esc((state.b.code||' ')[0])}</span>${esc(state.b.name)} · ${esc(state.competition)}</div>`;
 
-function slideHook(){return `<div class="grain"></div><div class="pad"><div class="tab">Previa</div>${vstag()}<div class="headline">${rich(state.headline)}</div><div class="hookline">${rich(state.hookLine)}</div></div><div class="teaserpill">${esc(state.teaser)}</div><div class="coverhandle">${esc(state.account)}</div>`;}
-function slideRhook(){return `<div class="grain"></div><div class="pad"><div class="tab">Final</div>${vstag()}
+function slideHook(){return `<div class="grain"></div><div class="pad" style="padding-bottom:130px"><div class="tab">Previa</div>${vstag()}<div class="headline">${rich(state.headline)}</div><div class="hookline">${rich(state.hookLine)}</div></div><div class="teaserpill">${esc(state.teaser)}</div><div class="coverhandle">${esc(state.account)}</div>`;}
+function slideRhook(){return `<div class="grain"></div><div class="pad" style="padding-bottom:130px"><div class="tab">Final</div>${vstag()}
   <div class="scoreline" style="margin:auto 0 6px">
     <div class="sc-team"><div class="badge" style="background:${state.a.color}">${esc(state.a.code)}</div><div class="nm">${esc(state.a.code)}</div></div>
     <div style="display:flex;align-items:center;gap:14px"><span class="num">${esc(String(state.score.a))}</span><span class="dash">–</span><span class="num">${esc(String(state.score.b))}</span></div>
