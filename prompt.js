@@ -1,4 +1,4 @@
-// El "cerebro": instrucciones que convierten un partido en el JSON del carrusel.
+// El "cerebro": instrucciones que convierten un partido en el JSON del carrusel. 
 // Hay dos modos: "previa" (antes del partido) y "resultado" (después).
 
 const BASE_RULES = `Escribes en español neutro latinoamericano, con tono periodístico y enérgico.
