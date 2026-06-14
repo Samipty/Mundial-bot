@@ -553,5 +553,117 @@
     "venue": "New York New Jersey Stadium",
     "datetime": "Sáb 27 Jun 2026",
     "kickoff": "2026-06-27T21:00:00Z"
+  },
+  {
+    "id": "GER-vs-CUW",
+    "a": {
+      "name": "Alemania",
+      "code": "GER"
+    },
+    "b": {
+      "name": "Curazao",
+      "code": "CUW"
+    },
+    "kickoff": "2026-06-14T17:00:00Z",
+    "stage": "Grupo E · J1",
+    "venue": "NRG Stadium, Houston"
+  },
+  {
+    "id": "GER-vs-CIV",
+    "a": {
+      "name": "Alemania",
+      "code": "GER"
+    },
+    "b": {
+      "name": "Costa de Marfil",
+      "code": "CIV"
+    },
+    "kickoff": "2026-06-20T20:00:00Z",
+    "stage": "Grupo E · J2",
+    "venue": "BMO Field, Toronto"
+  },
+  {
+    "id": "ECU-vs-GER",
+    "a": {
+      "name": "Ecuador",
+      "code": "ECU"
+    },
+    "b": {
+      "name": "Alemania",
+      "code": "GER"
+    },
+    "kickoff": "2026-06-25T20:00:00Z",
+    "stage": "Grupo E · J3",
+    "venue": "MetLife Stadium, Nueva York"
+  },
+  {
+    "id": "NED-vs-JPN",
+    "a": {
+      "name": "Países Bajos",
+      "code": "NED"
+    },
+    "b": {
+      "name": "Japón",
+      "code": "JPN"
+    },
+    "kickoff": "2026-06-14T20:00:00Z",
+    "stage": "Grupo F · J1",
+    "venue": "AT&T Stadium, Dallas"
+  },
+  {
+    "id": "NED-vs-SWE",
+    "a": {
+      "name": "Países Bajos",
+      "code": "NED"
+    },
+    "b": {
+      "name": "Suecia",
+      "code": "SWE"
+    },
+    "kickoff": "2026-06-20T17:00:00Z",
+    "stage": "Grupo F · J2",
+    "venue": "NRG Stadium, Houston"
+  },
+  {
+    "id": "TUN-vs-NED",
+    "a": {
+      "name": "Túnez",
+      "code": "TUN"
+    },
+    "b": {
+      "name": "Países Bajos",
+      "code": "NED"
+    },
+    "kickoff": "2026-06-25T23:00:00Z",
+    "stage": "Grupo F · J3",
+    "venue": "Arrowhead Stadium, Kansas City"
+  },
+  {
+    "id": "CIV-vs-ECU",
+    "a": {
+      "name": "Costa de Marfil",
+      "code": "CIV"
+    },
+    "b": {
+      "name": "Ecuador",
+      "code": "ECU"
+    },
+    "kickoff": "2026-06-14T23:00:00Z",
+    "stage": "Grupo E · J1",
+    "venue": "Lincoln Financial Field, Filadelfia"
+  },
+  {
+    "id": "ECU-vs-CUW",
+    "a": {
+      "name": "Ecuador",
+      "code": "ECU"
+    },
+    "b": {
+      "name": "Curazao",
+      "code": "CUW"
+    },
+    "kickoff": "2026-06-21T00:00:00Z",
+    "stage": "Grupo E · J2",
+    "venue": "Arrowhead Stadium, Kansas City"
   }
 ]
