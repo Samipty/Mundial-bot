@@ -129,6 +129,12 @@ input[type=color]{width:38px;height:38px;border:1px solid var(--line);border-rad
 .note{max-width:380px;color:#C3CCD6;font-size:15px;line-height:1.55;margin-top:18px}
 .cta{margin-top:24px;font-family:'Saira Condensed';font-weight:800;text-transform:uppercase;letter-spacing:.07em;font-size:15px;color:var(--accent-ink);background:var(--accent);padding:12px 24px;border-radius:999px}
 
+/* cierre interactivo: ¿Cara o Cruz? */
+.ctaopts{display:flex;flex-direction:column;gap:12px;width:100%;max-width:430px;margin-top:4px}
+.ctaopt{display:flex;align-items:center;gap:14px;text-align:left;background:var(--panel-2);border:1px solid var(--line);border-left:4px solid var(--accent);border-radius:14px;padding:16px 18px}
+.ctaopt .ctaside{font-family:'Saira Condensed';font-weight:900;text-transform:uppercase;font-size:22px;letter-spacing:.04em;flex:0 0 62px}
+.ctaopt .ctatxt{font-size:15px;line-height:1.4;color:#C9D3DC;font-weight:500}
+
 /* resultado: goles */
 .goals{display:flex;flex-direction:column;gap:4px;margin-top:6px}
 .goalrow{display:flex;align-items:center;gap:14px;padding:12px 0;border-bottom:1px solid var(--line)}
@@ -304,11 +310,12 @@ const state={
   incidents:[{minute:"90+2",type:"roja",player:"César Montes",team:"a",note:"Doble amonestación"},{minute:"",type:"roja",player:"",team:"a",note:""},{minute:"",type:"var",player:"",team:"a",note:""}],
   figura:{name:"Raúl Jiménez",team:"a",role:"Delantero",stat:"2 goles"},
   closingNote:"México arranca con triunfo y entra en la pelea por el liderato del Grupo A. El próximo reto: Corea del Sur.",
-  slides:{hook:true,story:true,quotes:true,stats:true,injuries:true,verdict:true,rhook:true,goals:true,incidentes:true,figura:true,cierre:true}
+  cta:{cara:"México golea y manda en el Grupo A",cruz:"Sudáfrica da el golpe y silencia el Azteca",ask:"Comentá CARA o CRUZ 👇"},
+  slides:{hook:true,story:true,quotes:true,stats:true,injuries:true,verdict:true,cta:true,rhook:true,goals:true,incidentes:true,figura:true,cierre:true}
 };
 const SLIDE_SETS={
-  previa:[["hook","Gancho"],["story","Titular+Dato"],["quotes","Declaraciones"],["stats","Números"],["injuries","Bajas"],["verdict","Veredicto"]],
-  resultado:[["rhook","Resultado"],["story","Crónica"],["goals","Goles"],["incidentes","Incidencias"],["figura","Figura"],["stats","Números"],["cierre","Qué sigue"]]
+  previa:[["hook","Gancho"],["story","Titular+Dato"],["quotes","Declaraciones"],["stats","Números"],["injuries","Bajas"],["verdict","Veredicto"],["cta","Cara o Cruz"]],
+  resultado:[["rhook","Resultado"],["story","Crónica"],["goals","Goles"],["incidentes","Incidencias"],["figura","Figura"],["stats","Números"],["cierre","Qué sigue"],["cta","Cara o Cruz"]]
 };
 let cur=0;
 
@@ -393,7 +400,8 @@ function slideIncidentes(){
 }
 function slideFigura(){const f=state.figura;return `<div class="grain"></div><div class="pad figwrap"><div class="kicker" style="justify-content:center"><span class="bar"></span>La figura del partido</div><div class="badge-lg" style="background:${state[f.team].color};margin-top:18px">${esc(state[f.team].code)}</div><div class="fname">${esc(f.name)}</div><div class="frole">${esc(state[f.team].name)} · ${esc(f.role)}</div><div class="fstat"><b>${esc(f.stat)}</b><span style="font-size:11px;color:var(--muted);text-transform:uppercase;letter-spacing:.1em">en el partido</span></div></div><div class="coverhandle">${esc(state.account)}</div>`;}
 function slideCierre(){return `<div class="grain"></div><div class="pad pred"><div class="kicker" style="justify-content:center"><span class="bar"></span>Lo que viene</div><div class="story-h" style="font-size:40px;margin:14px 0 4px;text-align:center">${esc(String(state.score.a))} – ${esc(String(state.score.b))}</div><div class="note">${esc(state.closingNote)}</div><div class="cta">Sigue ${esc(state.account)} para más →</div></div>`;}
-const RENDER={hook:slideHook,story:slideStory,quotes:slideQuotes,stats:slideStats,injuries:slideInjuries,verdict:slideVerdict,rhook:slideRhook,goals:slideGoals,incidentes:slideIncidentes,figura:slideFigura,cierre:slideCierre};
+function slideCta(){const c=state.cta;return `<div class="grain"></div><div class="pad pred"><div class="kicker" style="justify-content:center"><span class="bar"></span>Tu turno</div><div class="story-h" style="font-size:54px;margin:14px 0 22px;text-align:center">${rich("¿*CARA* O *CRUZ*?")}</div><div class="ctaopts"><div class="ctaopt" style="border-left-color:${state.a.color}"><span class="ctaside" style="color:${state.a.color}">CARA</span><span class="ctatxt">${esc(c.cara)}</span></div><div class="ctaopt" style="border-left-color:${state.b.color}"><span class="ctaside" style="color:${state.b.color}">CRUZ</span><span class="ctatxt">${esc(c.cruz)}</span></div></div><div class="note" style="margin-top:18px">${esc(c.ask)}</div><div class="cta">Guardá y compartí · ${esc(state.account)}</div></div>`;}
+const RENDER={hook:slideHook,story:slideStory,quotes:slideQuotes,stats:slideStats,injuries:slideInjuries,verdict:slideVerdict,rhook:slideRhook,goals:slideGoals,incidentes:slideIncidentes,figura:slideFigura,cierre:slideCierre,cta:slideCta};
 
 function activeSlides(){return SLIDE_SETS[state.mode].filter(([k])=>state.slides[k]).map(([k])=>k);}
 function render(){const keys=activeSlides();if(cur>=keys.length)cur=Math.max(0,keys.length-1);document.getElementById("track").innerHTML=keys.map((k,i)=>`<div class="slide" data-i="${i}" data-key="${k}">${RENDER[k]()}</div>`).join("");document.getElementById("dots").innerHTML=keys.map((_,i)=>`<i class="${i===cur?'on':''}" data-i="${i}"></i>`).join("");document.querySelectorAll("#dots i").forEach(d=>d.onclick=()=>{cur=+d.dataset.i;update();});document.getElementById("total").textContent=keys.length;update();layout();}
@@ -438,6 +446,7 @@ function importState(o){
   if(o.pred)Object.assign(state.pred,o.pred);
   if(o.score)Object.assign(state.score,o.score);
   if(o.figura)Object.assign(state.figura,o.figura);
+  if(o.cta)Object.assign(state.cta,o.cta);
   if(Array.isArray(o.quotes))state.quotes=o.quotes.map(q=>Object.assign({text:"",who:"",role:"",team:"a"},q));
   if(Array.isArray(o.tiles))state.tiles=o.tiles.map(t=>Object.assign({num:"",lab:"",sub:""},t));
   if(Array.isArray(o.goals))state.goals=o.goals.map(g=>Object.assign({minute:"",player:"",team:"a"},g));
