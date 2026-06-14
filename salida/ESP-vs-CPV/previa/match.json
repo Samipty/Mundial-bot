@@ -1,0 +1,102 @@
+{
+  "mode": "previa",
+  "account": "@caraocruzfutbol",
+  "competition": "Copa del Mundo 2026 · Grupo H · Jornada 1",
+  "datetime": "2026-06-15T12:00:00-04:00",
+  "venue": "Mercedes-Benz Stadium, Atlanta",
+  "a": {
+    "name": "España",
+    "code": "ESP",
+    "color": "#C60B1E",
+    "form": [
+      "D",
+      "W",
+      "D",
+      "D",
+      "W"
+    ],
+    "star": "Lamine Yamal"
+  },
+  "b": {
+    "name": "Cabo Verde",
+    "code": "CPV",
+    "color": "#009B44",
+    "form": [
+      "D",
+      "W",
+      "L",
+      "W",
+      "W"
+    ],
+    "star": "Ryan Mendes"
+  },
+  "formula": "duel",
+  "headline": "La Roja debuta\ncontra la *historia*\nviva del fútbol\nafricano",
+  "hookLine": "España llega como favorita. Cabo Verde llega con todo un país en la espalda.",
+  "teaser": "Un campeón de Europa frente a un debutante que se ganó el derecho de estar aquí. Atlanta será testigo del estreno mundialista de los Tiburones Azules ante La Roja.",
+  "story": {
+    "kicker": "Grupo H · J1 · Atlanta",
+    "head": "España vs.\nlos *Tiburones*\nAzules",
+    "body": "España, campeona de Europa y una de las grandes favoritas al título, estrena su camino mundialista ante Cabo Verde, que hace historia disputando su primer partido en una Copa del Mundo. Bubista, el técnico de los isleños, se enamoró del fútbol viendo el Mundial de España 1982 en un televisor en blanco y negro. Cuarenta y cuatro años después, conduce a los Tiburones Azules al máximo escenario del deporte mundial. La Roja llega con dudas físicas en sus figuras, y Cabo Verde llega sin presión pero con enorme fe colectiva.",
+    "num": "500.000",
+    "lab": "habitantes",
+    "sub": "El país detrás de Cabo Verde, que clasificó su selección al primer Mundial de su historia"
+  },
+  "quotes": [
+    {
+      "text": "Vamos a enfrentarnos a una de las grandes favoritas para ganar la Copa del Mundo.",
+      "who": "Yannick Semedo",
+      "role": "Mediocampista",
+      "team": "b"
+    },
+    {
+      "text": "Esto es para toda la gente que creyó cuando nadie creía.",
+      "who": "Bubista",
+      "role": "Seleccionador",
+      "team": "b"
+    },
+    {
+      "text": "Vamos a pelear por lo máximo, pero el éxito también radica en el camino.",
+      "who": "Luis de la Fuente",
+      "role": "Seleccionador",
+      "team": "a"
+    }
+  ],
+  "tiles": [
+    {
+      "num": "1°",
+      "lab": "Mundial de Cabo Verde",
+      "sub": "Los Tiburones Azules debutan en una Copa del Mundo. Lideraron el Grupo D de la CAF con 7 victorias, 2 empates y solo 1 derrota."
+    },
+    {
+      "num": "#1",
+      "lab": "España en el ranking FIFA",
+      "sub": "La Roja llega al torneo como la selección mejor rankeada del mundo, con títulos de la Eurocopa 2024 y la Nations League 2023."
+    },
+    {
+      "num": "22",
+      "lab": "goles de Ryan Mendes",
+      "sub": "El capitán y máximo goleador histórico de Cabo Verde (22 tantos en 94 internacionalidades) será la referencia ofensiva y emocional del equipo."
+    }
+  ],
+  "caption": "🦈 La historia tiene nombre: Cabo Verde. El lunes en Atlanta, los Tiburones Azules disputan su primer partido en un Mundial. Su rival: la España de Lamine Yamal y Rodri. David vs. Goliat en el Grupo H. ¿Podrán los isleños sorprender al campeón de Europa?\n\n#España #CaboVerde #Mundial2026 #GrupoH #WorldCup2026 #LaRoja #TiburonesAzules",
+  "musicSuggestion": {
+    "song": "Hawái",
+    "artist": "Maluma"
+  },
+  "aInj": "Fermín López — fractura quinto metatarsiano, baja confirmada\nSamu Omorodion — rotura ligamento cruzado anterior, baja confirmada\nLamine Yamal — desgarro bíceps femoral, duda para el debut\nNico Williams — molestias musculares, duda (\"el que peor está\", De la Fuente)",
+  "bInj": "",
+  "pred": {
+    "a": 3,
+    "b": 0,
+    "note": "España parte como gran favorita por jerarquía, ranking y profundidad de plantilla. Cabo Verde intentará resistir y vivir de transiciones, pero la diferencia de nivel es notable. Debut esperanzador para los isleños aunque el resultado lógico favorece a La Roja."
+  },
+  "slides": {
+    "hook": true,
+    "story": true,
+    "quotes": true,
+    "stats": true,
+    "injuries": true,
+    "verdict": true
+  }
+}
