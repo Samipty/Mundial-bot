@@ -1,9 +1,9 @@
 name: Mundial Carrusel Bot
 
-# Corre solo, sin tu PC: 3 veces al día (horario UTC) + un botón manual.
+# Corre solo, sin tu PC: cada 3 horas (horario UTC) + un botón manual.
 on:
   schedule:
-    - cron: '0 6,14,22 * * *'   # 06:00, 14:00 y 22:00 UTC
+    - cron: '0 0,3,6,9,12,15,18,21 * * *'   # cada 3 horas: 00:00, 03:00, 06:00, 09:00, 12:00, 15:00, 18:00, 21:00 UTC
   workflow_dispatch:             # botón "Run workflow" para pruebas manuales
 
 permissions:
