@@ -1,0 +1,102 @@
+{
+  "mode": "previa",
+  "account": "@caraocruzfutbol",
+  "competition": "Grupo I · J1",
+  "datetime": "Mar 16 Jun 2026",
+  "venue": "New York New Jersey Stadium",
+  "a": {
+    "name": "Francia",
+    "code": "FRA",
+    "color": "#003399",
+    "form": [
+      "W",
+      "W",
+      "W",
+      "L",
+      "W"
+    ],
+    "star": "Kylian Mbappé"
+  },
+  "b": {
+    "name": "Senegal",
+    "code": "SEN",
+    "color": "#00A859",
+    "form": [
+      "W",
+      "W",
+      "W",
+      "L",
+      "D"
+    ],
+    "star": "Sadio Mané"
+  },
+  "formula": "surprise",
+  "headline": "EL ÚNICO PARTIDO EN LA HISTORIA\nFUE *DERROTA* DE FRANCIA —\nY SENEGAL LLEVA 24 AÑOS\nESPERANDO REPETIRLO",
+  "hookLine": "Una sola vez se cruzaron en un Mundial. Francia no metió ni un gol. Y ahora vuelven a verse las caras.",
+  "teaser": "El dato está adentro →",
+  "story": {
+    "kicker": "La revancha que Francia nunca olvidó",
+    "head": "En 2002, una selección debutante *tumbó* a la campeona del mundo. Hoy se repite el duelo.",
+    "body": "31 de mayo de 2002. Corea del Sur. Senegal, en su primer Mundial, venció 1-0 a Francia —vigente campeona— con un gol de Papa Bouba Diop. Les Bleus no marcaron ni un gol, quedaron eliminados en grupos y la historia quedó grabada a fuego. Veinticuatro años después, el Grupo I del Mundial 2026 reescribe el guión: Mbappé vs. Mané, potencia europea vs. los Leones de la Teranga. El historial en Mundiales es brutal para Francia: 1 partido, 1 derrota, 0 goles.",
+    "num": "1",
+    "lab": "solo partido mundialista entre ambos",
+    "sub": "Francia 0-1 Senegal (2002) — la única vez que se vieron en una Copa del Mundo"
+  },
+  "quotes": [
+    {
+      "text": "Voy frecuentemente a Senegal y solo hablan de ese partido de hace más de veinte años. Francia tendrá que estar muy atenta otra vez.",
+      "who": "Hervé Renard",
+      "role": "Seleccionador de Arabia Saudita, exentrenador de selecciones africanas",
+      "team": "b"
+    },
+    {
+      "text": "No nos asustan. Espero que nos clasifiquemos y podamos tomarnos la revancha.",
+      "who": "William Saliba",
+      "role": "Defensor central, Selección de Francia",
+      "team": "a"
+    }
+  ],
+  "tiles": [
+    {
+      "num": "12",
+      "lab": "jugadores de Senegal nacidos en Francia",
+      "sub": "Entre ellos Koulibaly, Mendy y Pape Gueye — el partido tiene capas históricas y migratorias únicas"
+    },
+    {
+      "num": "56",
+      "lab": "goles de Mbappé con Francia",
+      "sub": "El capitán del Real Madrid busca su 2° título mundial y podría llegar a su partido 100 con Les Bleus"
+    },
+    {
+      "num": "55",
+      "lab": "goles de Mané con Senegal",
+      "sub": "El máximo goleador histórico senegalés anunció que este será su último Mundial con la selección"
+    }
+  ],
+  "caption": "¿Y si la historia se repite?\n\nFrancia llega como subcampeona y favorita. Senegal llega con la memoria viva del 2002 — y con 12 jugadores nacidos en territorio francés en su plantilla.\n\nMbappé contra Mané. La potencia contra el alma. El partido que el Grupo I tenía marcado en rojo desde el sorteo.\n\n#Francia #Senegal #Mundial2026 #GrupoI #FIFAWorldCup2026 #LesBleus #LeonesDelaTeranga",
+  "musicSuggestion": {
+    "song": "Jour de chance",
+    "artist": "Sadio Mané (feat. Gims)"
+  },
+  "cta": {
+    "cara": "Francia borra el fantasma del 2002 con Mbappé",
+    "cruz": "Senegal vuelve a tumbar a los campeones",
+    "ask": "Comenta CARA o CRUZ 👇"
+  },
+  "aInj": "Hugo Ekitiké — rotura tendón de Aquiles (descartado del torneo)\nEduardo Camavinga — no convocado (baja selectiva)",
+  "bInj": "",
+  "pred": {
+    "a": 2,
+    "b": 1,
+    "note": "Francia parte como favorita por jerarquía y profundidad de plantilla, pero Senegal tiene argumentos reales: velocidad en banda, un bloque sólido y la motivación histórica del 2002. Partido con goles y tensión."
+  },
+  "slides": {
+    "hook": true,
+    "story": true,
+    "quotes": true,
+    "stats": true,
+    "injuries": true,
+    "verdict": true,
+    "cta": true
+  }
+}

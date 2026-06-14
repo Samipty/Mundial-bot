@@ -1,0 +1,102 @@
+{
+  "mode": "previa",
+  "account": "@caraocruzfutbol",
+  "competition": "Grupo E · J1",
+  "datetime": "2026-06-14T19:00:00-04:00",
+  "venue": "Lincoln Financial Field, Filadelfia",
+  "a": {
+    "name": "Costa de Marfil",
+    "code": "CIV",
+    "color": "#FF8000",
+    "form": [
+      "L",
+      "W",
+      "W",
+      "W",
+      "W"
+    ],
+    "star": "Franck Kessié"
+  },
+  "b": {
+    "name": "Ecuador",
+    "code": "ECU",
+    "color": "#FFD100",
+    "form": [
+      "W",
+      "D",
+      "D",
+      "W",
+      "W"
+    ],
+    "star": "Moisés Caicedo"
+  },
+  "formula": "surprise",
+  "headline": "LOS ELEFANTES *TUMBARON A FRANCIA*\nY ECUADOR LLEVA\n19 PARTIDOS *SIN PERDER*:\nEL DEBUT QUE NADIE ESPERABA",
+  "hookLine": "Dos selecciones que llegaron en modo bestia al debut, y solo una puede salir con vida en el grupo de Alemania.",
+  "teaser": "El dato está adentro →",
+  "story": {
+    "kicker": "REGRESO + RÉCORD",
+    "head": "12 años esperando un *Mundial*. 19 partidos sin perder.",
+    "body": "Costa de Marfil regresa a la Copa del Mundo tras 12 años de ausencia con una generación más equilibrada que nunca: venció a Francia 2-1 en la preparación y clasificó invicta con 25 goles a favor. Enfrente, una Ecuador que no pierde desde septiembre de 2024 y llega con su plantel más valioso de la historia — más de 430 millones de dólares sobre el campo. Y lo más extraño: nunca antes se han visto las caras. Este domingo en Filadelfia se escribe el primer capítulo.",
+    "num": "12",
+    "lab": "años",
+    "sub": "de ausencia mundialista de Costa de Marfil"
+  },
+  "quotes": [
+    {
+      "text": "No vamos a Estados Unidos solo para completar el cupo ni para hacer turismo. Vamos con objetivos y ambiciones elevadas.",
+      "who": "Emerse Faé",
+      "role": "Seleccionador",
+      "team": "a"
+    },
+    {
+      "text": "Hay que tomar con naturalidad que Ecuador pueda ganar el Mundial. Tenemos la ilusión de ganarlo, pero no la obligación.",
+      "who": "Sebastián Beccacece",
+      "role": "Seleccionador",
+      "team": "b"
+    }
+  ],
+  "tiles": [
+    {
+      "num": "19",
+      "lab": "partidos invicto",
+      "sub": "Ecuador no pierde desde septiembre de 2024 — el mejor arranque de su historia"
+    },
+    {
+      "num": "5 goles",
+      "lab": "recibidos en 18 fechas",
+      "sub": "Ecuador fue el equipo menos goleado de toda la eliminatoria sudamericana"
+    },
+    {
+      "num": "0",
+      "lab": "antecedentes",
+      "sub": "Primera vez en la historia que Costa de Marfil y Ecuador se enfrentan en cualquier competencia oficial"
+    }
+  ],
+  "caption": "Los Elefantes volvieron a un Mundial y arrancaron tumbando a Francia en la preparación. Ecuador llega con 19 partidos invicto y el plantel más caro de su historia. Primer capítulo de una historia que nunca se había escrito. ¿Quién impone condiciones en el Grupo E? #CostaDeMarfil #Ecuador #Mundial2026 #GrupoE #LaTri #Elefantes",
+  "musicSuggestion": {
+    "song": "BAILE INoLVIDABLE",
+    "artist": "Jhay Cortez (feat. Enrique Iglesias)"
+  },
+  "cta": {
+    "cara": "Los Elefantes sorprenden y abren el grupo",
+    "cruz": "La Tri estrena su récord con victoria",
+    "ask": "Comenta CARA o CRUZ 👇"
+  },
+  "aInj": "Evan Ndicka — lesión muscular (tendón posterior), no llega al debut\nKossounou — lesión muscular desde el 10 de mayo, duda\nEvann Guessand — lesión de rodilla, apenas sumó 40 minutos recientes\nWilfried Singo — molestias físicas, duda de última hora",
+  "bInj": "Leonardo Campana — lesión, baja confirmada para todo el torneo",
+  "pred": {
+    "a": 1,
+    "b": 1,
+    "note": "Partido inédito y muy parejo: el déficit defensivo de Costa de Marfil (Ndicka y Kossounou en duda) frente a la solidez de Ecuador (5 goles recibidos en 18 partidos de clasificatoria) hace inclinar la balanza hacia la Tri, pero la velocidad de Amad Diallo y el liderazgo de Kessié pueden complicar cualquier plan. Empate con opciones reales para Ecuador."
+  },
+  "slides": {
+    "hook": true,
+    "story": true,
+    "quotes": true,
+    "stats": true,
+    "injuries": true,
+    "verdict": true,
+    "cta": true
+  }
+}
