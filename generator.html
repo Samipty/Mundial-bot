@@ -135,6 +135,16 @@ input[type=color]{width:38px;height:38px;border:1px solid var(--line);border-rad
 .ctaopt .ctaside{font-family:'Saira Condensed';font-weight:900;text-transform:uppercase;font-size:22px;letter-spacing:.04em;flex:0 0 62px}
 .ctaopt .ctatxt{font-size:15px;line-height:1.4;color:#C9D3DC;font-weight:500}
 
+/* Las dos caras */
+.doscaras{display:flex;flex-direction:column;gap:10px;width:100%;margin-top:8px}
+.doscara{display:flex;flex-direction:column;gap:6px;padding:16px 18px;border-radius:14px;border:1px solid var(--line);background:var(--panel-2);position:relative;overflow:hidden}
+.doscara::before{content:'';position:absolute;left:0;top:0;bottom:0;width:4px}
+.doscara.cara-a::before{background:var(--cara-color)}
+.doscara.cara-b::before{background:var(--cruz-color)}
+.doscara .dc-label{font-family:'Saira Condensed';font-weight:900;text-transform:uppercase;font-size:13px;letter-spacing:.1em;opacity:.7}
+.doscara .dc-text{font-family:'Saira Condensed';font-weight:800;text-transform:uppercase;font-size:22px;line-height:1.1}
+.doscaras-q{text-align:center;font-size:14px;color:var(--muted);margin-top:10px;font-style:italic}
+
 /* resultado: goles */
 .goals{display:flex;flex-direction:column;gap:4px;margin-top:6px}
 .goalrow{display:flex;align-items:center;gap:14px;padding:12px 0;border-bottom:1px solid var(--line)}
@@ -311,11 +321,11 @@ const state={
   figura:{name:"Raúl Jiménez",team:"a",role:"Delantero",stat:"2 goles"},
   closingNote:"México arranca con triunfo y entra en la pelea por el liderato del Grupo A. El próximo reto: Corea del Sur.",
   cta:{cara:"México golea y manda en el Grupo A",cruz:"Sudáfrica da el golpe y silencia el Azteca",ask:"Comentá CARA o CRUZ 👇"},
-  slides:{hook:true,story:true,quotes:true,stats:true,verdict:true,cta:true,rhook:true,goals:true,incidentes:true,figura:true,cierre:true}
+  slides:{hook:true,story:true,quotes:true,stats:true,verdict:true,doscaras:true,cta:true,rhook:true,goals:true,incidentes:true,figura:true,cierre:true}
 };
 const SLIDE_SETS={
-  previa:[["hook","Gancho"],["story","Titular+Bajas"],["quotes","Declaraciones"],["stats","Números"],["verdict","Veredicto"],["cta","Cara o Cruz"]],
-  resultado:[["rhook","Resultado"],["story","Crónica"],["goals","Goles"],["incidentes","Incidencias"],["figura","Figura"],["stats","Números"],["cierre","Qué sigue"],["cta","Cara o Cruz"]]
+  previa:[["hook","Gancho"],["story","Titular+Bajas"],["quotes","Declaraciones"],["stats","Números"],["verdict","Veredicto"],["doscaras","Dos Caras"],["cta","Cara o Cruz"]],
+  resultado:[["rhook","Resultado"],["story","Crónica"],["goals","Goles"],["incidentes","Incidencias"],["figura","Figura"],["stats","Números"],["cierre","Qué sigue"],["doscaras","Dos Caras"],["cta","Cara o Cruz"]]
 };
 let cur=0;
 
@@ -404,8 +414,10 @@ function slideIncidentes(){
 }
 function slideFigura(){const f=state.figura;return `<div class="grain"></div><div class="pad figwrap"><div class="kicker" style="justify-content:center"><span class="bar"></span>La figura del partido</div><div class="badge-lg" style="background:${state[f.team].color};margin-top:18px">${esc(state[f.team].code)}</div><div class="fname">${esc(f.name)}</div><div class="frole">${esc(state[f.team].name)} · ${esc(f.role)}</div><div class="fstat"><b>${esc(f.stat)}</b><span style="font-size:11px;color:var(--muted);text-transform:uppercase;letter-spacing:.1em">en el partido</span></div></div><div class="coverhandle">${esc(state.account)}</div>`;}
 function slideCierre(){return `<div class="grain"></div><div class="pad pred"><div class="kicker" style="justify-content:center"><span class="bar"></span>Lo que viene</div><div class="story-h" style="font-size:40px;margin:14px 0 4px;text-align:center">${esc(String(state.score.a))} – ${esc(String(state.score.b))}</div><div class="note">${esc(state.closingNote)}</div><div class="cta">Sigue ${esc(state.account)} para más →</div></div>`;}
-function slideCta(){const c=state.cta;return `<div class="grain"></div><div class="pad pred"><div class="kicker" style="justify-content:center"><span class="bar"></span>Tu turno</div><div class="story-h" style="font-size:54px;margin:14px 0 22px;text-align:center">${rich("¿*CARA* O *CRUZ*?")}</div><div class="ctaopts"><div class="ctaopt" style="border-left-color:${state.a.color}"><span class="ctaside" style="color:${state.a.color}">CARA</span><span class="ctatxt">${esc(c.cara)}</span></div><div class="ctaopt" style="border-left-color:${state.b.color}"><span class="ctaside" style="color:${state.b.color}">CRUZ</span><span class="ctatxt">${esc(c.cruz)}</span></div></div><div class="note" style="margin-top:18px">${esc(c.ask)}</div><div class="cta">Guardá y compartí · ${esc(state.account)}</div></div>`;}
-const RENDER={hook:slideHook,story:slideStory,quotes:slideQuotes,stats:slideStats,verdict:slideVerdict,rhook:slideRhook,goals:slideGoals,incidentes:slideIncidentes,figura:slideFigura,cierre:slideCierre,cta:slideCta};
+function slideDosCara(){const c=state.cta;return `<div class="grain"></div><div class="pad" style="--cara-color:${state.a.color};--cruz-color:${state.b.color}"><div class="kicker" style="justify-content:center"><span class="bar"></span>Las dos caras</div><div class="story-h" style="font-size:38px;margin:10px 0 18px;text-align:center">${rich("Un partido,\n*dos lecturas*")}</div><div class="doscaras"><div class="doscara cara-a"><span class="dc-label" style="color:${state.a.color}">⬡ ${esc(state.a.name)}</span><span class="dc-text">${esc(c.cara)}</span></div><div class="doscara cara-b"><span class="dc-label" style="color:${state.b.color}">⬡ ${esc(state.b.name)}</span><span class="dc-text">${esc(c.cruz)}</span></div></div><div class="doscaras-q">¿De qué lado estás? →</div></div><div class="handle">${esc(state.account)}</div><div class="pagehint">SIGUE →</div>`;}
+function slideCta(){const c=state.cta;return `<div class="grain"></div><div class="pad pred"><div class="kicker" style="justify-content:center"><span class="bar"></span>Tu turno</div><div class="story-h" style="font-size:54px;margin:14px 0 22px;text-align:center">${rich("¿*CARA* O *CRUZ*?")}</div><div class="ctaopts"><div class="ctaopt" style="border-left-color:${state.a.color}"><span class="ctaside" style="color:${state.a.color}">CARA</span><span class="ctatxt">${esc(c.cara)}</span></div><div class="ctaopt" style="border-left-color:${state.b.color}"><span class="ctaside" style="color:${state.b.color}">CRUZ</span><span class="ctatxt">${esc(c.cruz)}</span></div></div><div class="note" style="margin-top:18px">${esc(c.ask)}</div><div class="cta">Guarda y comparte · ${esc(state.account)}</div></div>`;}
+
+const RENDER={hook:slideHook,story:slideStory,quotes:slideQuotes,stats:slideStats,verdict:slideVerdict,rhook:slideRhook,goals:slideGoals,incidentes:slideIncidentes,figura:slideFigura,cierre:slideCierre,doscaras:slideDosCara,cta:slideCta};
 
 function activeSlides(){return SLIDE_SETS[state.mode].filter(([k])=>state.slides[k]).map(([k])=>k);}
 function render(){const keys=activeSlides();if(cur>=keys.length)cur=Math.max(0,keys.length-1);document.getElementById("track").innerHTML=keys.map((k,i)=>`<div class="slide" data-i="${i}" data-key="${k}">${RENDER[k]()}</div>`).join("");document.getElementById("dots").innerHTML=keys.map((_,i)=>`<i class="${i===cur?'on':''}" data-i="${i}"></i>`).join("");document.querySelectorAll("#dots i").forEach(d=>d.onclick=()=>{cur=+d.dataset.i;update();});document.getElementById("total").textContent=keys.length;update();layout();}

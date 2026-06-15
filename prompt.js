@@ -71,7 +71,7 @@ ESQUEMA (modo previa):
   "headline": string, "hookLine": string, "teaser": string,
   "aInj": string ("Jugador — motivo" por línea; "" si no hay), "bInj": string,
   "pred": { "a": number, "b": number, "note": string },
-  "slides": {"hook":true,"story":true,"quotes":true,"stats":true,"verdict":true,"cta":true}
+  "slides": {"hook":true,"story":true,"quotes":true,"stats":true,"verdict":true,"doscaras":true,"cta":true}
 }
 Investiga: forma (últimos 5), jugadores clave, lesiones/sanciones (se muestran integradas
 en el slide "story", no en slide separado), ángulo de la previa,
@@ -116,7 +116,7 @@ ESQUEMA (modo resultado):
                     "player": string, "team": "a"|"b", "note": string } ],
   "figura": { "name": string, "team": "a"|"b", "role": string, "stat": string },
   "closingNote": string (qué significa / qué sigue),
-  "slides": {"rhook":true,"story":true,"goals":true,"incidentes":true,"figura":true,"stats":true,"cierre":true,"cta":true}
+  "slides": {"rhook":true,"story":true,"goals":true,"incidentes":true,"figura":true,"stats":true,"cierre":true,"doscaras":true,"cta":true}
 }
 Investiga: marcador final, goleadores y minutos, figura del partido con su dato,
 3 estadísticas del juego (posesión, remates, etc.), 1-3 declaraciones post-partido reales,
