@@ -1,0 +1,163 @@
+{
+  "mode": "resultado",
+  "account": "@caraocruzfutbol",
+  "competition": "Grupo E · J1",
+  "datetime": "2026-06-14T17:00:00Z",
+  "venue": "NRG Stadium, Houston, Texas",
+  "a": {
+    "name": "Alemania",
+    "code": "GER",
+    "color": "#E8000D",
+    "form": [
+      "W",
+      "W",
+      "W",
+      "W",
+      "W"
+    ],
+    "star": "Kai Havertz"
+  },
+  "b": {
+    "name": "Curazao",
+    "code": "CUW",
+    "color": "#009FDF",
+    "form": [
+      "L",
+      "W",
+      "L",
+      "L",
+      "L"
+    ],
+    "star": "Livano Comenencia"
+  },
+  "headline": "EL MISMO *MARCADOR* QUE BRASIL 2014\nY ESTA VEZ\nNO FUE UNA *SEMIFINAL*\nFUE EL DEBUT",
+  "hookLine": "Alemania resucitó un número que el mundo no olvidaba — y lo hizo contra un debutante histórico.",
+  "teaser": "La historia completa →",
+  "score": {
+    "a": 7,
+    "b": 1
+  },
+  "goals": [
+    {
+      "minute": "6",
+      "player": "Felix Nmecha",
+      "team": "a"
+    },
+    {
+      "minute": "21",
+      "player": "Livano Comenencia",
+      "team": "b"
+    },
+    {
+      "minute": "38",
+      "player": "Nico Schlotterbeck",
+      "team": "a"
+    },
+    {
+      "minute": "45+5",
+      "player": "Kai Havertz (pen.)",
+      "team": "a"
+    },
+    {
+      "minute": "47",
+      "player": "Jamal Musiala",
+      "team": "a"
+    },
+    {
+      "minute": "68",
+      "player": "Nathaniel Brown",
+      "team": "a"
+    },
+    {
+      "minute": "78",
+      "player": "Deniz Undav",
+      "team": "a"
+    },
+    {
+      "minute": "88",
+      "player": "Kai Havertz",
+      "team": "a"
+    }
+  ],
+  "incidents": [
+    {
+      "minute": "45+2",
+      "type": "polemica",
+      "player": "Riechedly Bazoer",
+      "team": "b",
+      "note": "Falta sobre Nmecha dentro del área que el árbitro marroquí Jalal Jayed sancionó como penalti, convertido luego por Havertz para el 3-1."
+    }
+  ],
+  "figura": {
+    "name": "Kai Havertz",
+    "team": "a",
+    "role": "Delantero centro — Arsenal",
+    "stat": "Doblete (pen. 45+5 y remate picado 88'), asistencia recibida de Undav en el 7-1. Además ganó el penalti que él mismo convirtió."
+  },
+  "story": {
+    "kicker": "DEBUT · GRUPO E · HOUSTON",
+    "head": "La *Mannschaft* volvió a hacer 7",
+    "body": "Alemania llegaba con la deuda de dos eliminaciones consecutivas en fase de grupos. Nmecha la abrió al 6' con un remate de primera asistido por Wirtz. Curazao, en su primer Mundial de la historia, empató con un golazo de Comenencia al 21' — el gol histórico del país caribeño — y el NRG Stadium se estremeció. El sueño duró 17 minutos: Schlotterbeck cabeceó el 2-1 desde un córner y Havertz picó el penal del 3-1 antes del descanso. En el segundo tiempo, Musiala (47'), Brown (68'), Undav (78') y otro Havertz (88') sepultaron a un Curazao que quedó sin piernas. El marcador final: 7-1, idéntico al de Brasil 2014, pero esta vez no fue una semifinal, fue el estreno.",
+    "num": "7-1",
+    "lab": "RESULTADO FINAL",
+    "sub": "Mismo marcador que el Mineirazo de 2014"
+  },
+  "quotes": [
+    {
+      "text": "Curacao are exciting to analyse. But we won't make the mistake of underestimating them.",
+      "who": "Julian Nagelsmann",
+      "role": "Entrenador de Alemania",
+      "team": "a"
+    },
+    {
+      "text": "Livano Comenencia scored to level the clash, and in the process saw Curacao score their first ever World Cup goal.",
+      "who": "ESPN",
+      "role": "Crónica del partido — 14 jun. 2026",
+      "team": "b"
+    },
+    {
+      "text": "Deniz Undav came off the bench to score a goal and assist two others.",
+      "who": "NBC Sports",
+      "role": "Reporte del partido — 14 jun. 2026",
+      "team": "a"
+    }
+  ],
+  "tiles": [
+    {
+      "num": "64.7% vs 35.3%",
+      "lab": "POSESIÓN",
+      "sub": "Alemania dominó el balón durante todo el partido"
+    },
+    {
+      "num": "26 vs 8",
+      "lab": "REMATES TOTALES",
+      "sub": "Alemania triplicó los intentos de Curazao"
+    },
+    {
+      "num": "12 vs 2",
+      "lab": "TIROS AL ARCO",
+      "sub": "Manuel Neuer apenas realizó 1 atajada"
+    }
+  ],
+  "caption": "7-1. El mismo número que dejó a Brasil llorando en 2014. Esta vez fue Curazao quien lo sufrió — pero con honor: Comenencia marcó el primer gol mundialista de su país y se ganó los aplausos de todo Houston. 🇩🇪🇨🇼 Havertz doblete, Musiala, Brown, Undav y Schlotterbeck. La Mannschaft abrió el Mundial con todo. ¿Cuánto puede llegar a hacer este equipo? #Alemania #Curazao #Mundial2026 #GrupoE #FIFAWorldCup #Havertz #Musiala",
+  "musicSuggestion": {
+    "song": "Komet",
+    "artist": "Udo Lindenberg & Apache 207"
+  },
+  "cta": {
+    "cara": "Alemania, candidata seria al título",
+    "cruz": "Curazao escribió historia igual, con 1 gol",
+    "ask": "Comenta CARA o CRUZ 👇"
+  },
+  "closingNote": "Con este 7-1, Alemania lidera el Grupo E con diferencia de gol +6 y un mensaje claro al torneo: la sequía de 12 años sin pasar de grupos terminó. Curazao, pese a la goleada, anotó el primer gol de su historia mundialista (Comenencia, 21') y jugará su segunda fecha el 20 de junio ante Ecuador en Kansas City. Alemania enfrentará a Costa de Marfil ese mismo día en Toronto.",
+  "slides": {
+    "rhook": true,
+    "story": true,
+    "goals": true,
+    "incidentes": true,
+    "figura": true,
+    "stats": true,
+    "cierre": true,
+    "cta": true
+  }
+}

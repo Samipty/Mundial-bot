@@ -1,0 +1,108 @@
+{
+  "mode": "previa",
+  "account": "@caraocruzfutbol",
+  "competition": "Grupo F · J1",
+  "datetime": "2026-06-14T15:00:00-05:00",
+  "venue": "AT&T Stadium, Arlington, Texas",
+  "a": {
+    "name": "Países Bajos",
+    "code": "NED",
+    "color": "#FF6600",
+    "form": [
+      "W",
+      "W",
+      "D",
+      "L",
+      "W"
+    ],
+    "star": "Cody Gakpo"
+  },
+  "b": {
+    "name": "Japón",
+    "code": "JPN",
+    "color": "#BC002D",
+    "form": [
+      "W",
+      "W",
+      "W",
+      "W",
+      "W"
+    ],
+    "star": "Takefusa Kubo"
+  },
+  "formula": "gap",
+  "headline": "JAPÓN LLEGA *SIN CAPITÁN*\nY CON 5 VICTORIAS SEGUIDAS:\n¿QUIÉN ES EL FAVORITO\nEN DALLAS?",
+  "hookLine": "La selección asiática arranca invicta... y la Naranja recién ganó de penales en el minuto 98.",
+  "teaser": "El dato te sorprende →",
+  "story": {
+    "kicker": "EL DUELO TÁCTICO DEL GRUPO F",
+    "head": "El *press japonés* contra el build-up holandés: la batalla que decide el partido",
+    "body": "Países Bajos domina el balón con De Jong y Gravenberch como pivotes y busca abrir espacios con Gakpo, Depay y Reijnders. Pero Japón, pese a perder a su capitán Wataru Endo por lesión, llega con cinco victorias consecutivas y un sistema 3-4-2-1 diseñado exactamente para asfixiar a equipos que construyen desde atrás. Si el press japonés corta las líneas de pase a De Jong, la Naranja pierde su motor. Si la defensa holandesa cierra los contragolpes de Kubo y Ueda, el partido es otro.",
+    "num": "27",
+    "lab": "Goles en clasificación UEFA",
+    "sub": "Países Bajos en 8 partidos (6V-2E), solo 4 recibidos"
+  },
+  "quotes": [
+    {
+      "text": "\"Creo que tenemos la calidad para llegar a cuartos de final. El hecho de que ahora podamos decir eso de Japón, independientemente del rival, es realmente increíble.\"",
+      "who": "Hajime Moriyasu",
+      "role": "Seleccionador",
+      "team": "b"
+    },
+    {
+      "text": "\"Disciplina y calidad, y a eso le añadimos un buen grupo, nos llevamos todos bien. Podremos ir más lejos que en el anterior Mundial.\"",
+      "who": "Takefusa Kubo",
+      "role": "Extremo, Real Sociedad",
+      "team": "b"
+    },
+    {
+      "text": "\"Los Países Bajos jugarán más o menos a su propio estilo, mientras que Túnez probablemente intentará neutralizar el nuestro.\"",
+      "who": "Hajime Moriyasu",
+      "role": "Seleccionador",
+      "team": "b"
+    }
+  ],
+  "tiles": [
+    {
+      "num": "25",
+      "lab": "Goles en la Eredivisie esta temporada",
+      "sub": "Ayase Ueda (Feyenoord) — bota de oro holandesa, punta de Japón"
+    },
+    {
+      "num": "1-0",
+      "lab": "Único antecedente directo",
+      "sub": "Victoria holandesa en el Mundial Sudáfrica 2010 — el único duelo cara a cara"
+    },
+    {
+      "num": "3",
+      "lab": "Bajas confirmadas para Japón",
+      "sub": "Endo (lesión pie, retiró), Mitoma (isquio), Minamino (LCA) — tres titulares fuera"
+    }
+  ],
+  "caption": "🔶🟥 Países Bajos vs. Japón — y el marcador más importante antes de patear ni una pelota ya es brutal.\n\nJapón llega invicto en sus últimos 5 partidos... pero sin capitán, sin Mitoma y sin Minamino. La Naranja llega con la plantilla de mayor calidad del grupo... pero ganó su último amistoso de penales en el 98'.\n\n¿Quién tiene realmente la ventaja en Dallas hoy?\n\n#PaísesBajos #Japón #Mundial2026 #GrupoF #NED #JPN #Oranje #SamuraiBlue",
+  "musicSuggestion": {
+    "song": "Leun op mij",
+    "artist": "Die Antwoord"
+  },
+  "cta": {
+    "cara": "La Naranja aplasta con clase y profundidad",
+    "cruz": "Japón tumba otro gigante europeo",
+    "ask": "Comenta CARA o CRUZ 👇"
+  },
+  "aInj": "Jurriën Timber — lesión inguinal, descartado del torneo (reemplazado por Geertruida)\nMatthijs de Ligt — lesión de espalda, operado, fuera del Mundial",
+  "bInj": "Wataru Endo — lesión en pie, descartado y retirado de la selección\nKaoru Mitoma — lesión de isquiotibiales, fuera del torneo\nTakumi Minamino — rotura LCA rodilla izquierda, fuera del torneo",
+  "pred": {
+    "a": 2,
+    "b": 1,
+    "note": "Países Bajos tiene la ventaja individual, pero Japón es peligroso en transición. Victoria mínima holandesa en un partido más cerrado de lo que indica el papel."
+  },
+  "slides": {
+    "hook": true,
+    "story": true,
+    "quotes": true,
+    "stats": true,
+    "injuries": true,
+    "verdict": true,
+    "cta": true
+  }
+}

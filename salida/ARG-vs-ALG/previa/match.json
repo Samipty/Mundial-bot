@@ -1,0 +1,108 @@
+{
+  "mode": "previa",
+  "account": "@caraocruzfutbol",
+  "competition": "Grupo J · J1",
+  "datetime": "2026-06-16T22:00:00-03:00",
+  "venue": "Kansas City Stadium, Kansas City, Missouri, EE. UU.",
+  "a": {
+    "name": "Argentina",
+    "code": "ARG",
+    "color": "#75AADB",
+    "form": [
+      "W",
+      "W",
+      "W",
+      "W",
+      "W"
+    ],
+    "star": "Lionel Messi"
+  },
+  "b": {
+    "name": "Argelia",
+    "code": "ALG",
+    "color": "#007A3D",
+    "form": [
+      "L",
+      "W",
+      "D",
+      "W",
+      "W"
+    ],
+    "star": "Riyad Mahrez"
+  },
+  "formula": "gap",
+  "headline": "ARGENTINA LLEGA *ROTA* POR DENTRO\nY ARGELIA YA SABE\nPOR DÓNDE ENTRAR\nESTA NOCHE EN KANSAS",
+  "hookLine": "El campeón del mundo tiene más bajas que certezas... y los Zorros huelen la sangre.",
+  "teaser": "El detalle está adentro →",
+  "story": {
+    "kicker": "El lado oculto del debut",
+    "head": "La *defensa* que Scaloni todavía no tiene",
+    "body": "Argentina llega al debut mundialista con cinco jugadores comprometidos físicamente. Tagliafico se rompió el sóleo y se pierde el partido; Balerdi ya está afuera del torneo. Dibu Martínez no ató el guante en el último amistoso por una fractura en el dedo. Cuti Romero y Leandro Paredes apuran su recuperación contrarreloj. Scaloni no tiene la defensa definida a 24 horas del pitazo. Mientras tanto, Argelia entrenó su último ensayo a puertas cerradas y sin televisión, para que el técnico rival no vea nada. El partido se juega antes de que emppiece.",
+    "num": "5",
+    "lab": "jugadores ARG comprometidos físicamente",
+    "sub": "Tagliafico y Balerdi, bajas confirmadas; Dibu, Romero y Paredes, en duda"
+  },
+  "quotes": [
+    {
+      "text": "\"Le ganaremos a Messi, si Alá quiere. El primer partido es clave. Ellos provocan mucho, pero tenemos que jugar con cabeza fría.\"",
+      "who": "Ibrahim Maza",
+      "role": "Mediocampista, Bayer Leverkusen",
+      "team": "b"
+    },
+    {
+      "text": "\"Los partidos hay que jugarlos\"",
+      "who": "Lionel Scaloni",
+      "role": "Director técnico, Argentina",
+      "team": "a"
+    },
+    {
+      "text": "\"Argentina es la campeona del mundo vigente. Llegamos con mucha humildad, pero también con muchas ambiciones. Vamos a darlo todo.\"",
+      "who": "Aissa Mandi",
+      "role": "Capitán, Argelia",
+      "team": "b"
+    }
+  ],
+  "tiles": [
+    {
+      "num": "1",
+      "lab": "único antecedente histórico",
+      "sub": "Argentina ganó 4-3 en amistoso en el Camp Nou (2007). Messi marcó dos goles. Primer duelo OFICIAL de la historia entre ambas selecciones."
+    },
+    {
+      "num": "2.4",
+      "lab": "goles por partido en la clasificación de Argelia",
+      "sub": "Los Zorros del Desierto fueron máquina ofensiva en la CAF: 8 victorias, 1 empate, 1 derrota. Amoura fue el goleador con 10 tantos."
+    },
+    {
+      "num": "20",
+      "lab": "años tiene Ibrahim Maza",
+      "sub": "La joven joya del Bayer Leverkusen, nacida en Berlín y elegida para representar a Argelia, es la amenaza más inesperada que enfrenta la Albiceleste."
+    }
+  ],
+  "caption": "¿El campeón del mundo debuta con la defensa en llamas? Tagliafico y Balerdi afuera, Dibu con el dedo roto y Cuti Romero corriendo contra el reloj. Mientras tanto, un pibe de 20 años del Bayer Leverkusen ya avisó: \"Le ganaremos a Messi\". Esta noche, Kansas City no es una formalidad.\n\n#Argentina #Argelia #Mundial2026 #GrupoJ #FIFAWorldCup2026 #Messi #IbrahimMaza #Albiceleste",
+  "musicSuggestion": {
+    "song": "BZRP Music Sessions #52",
+    "artist": "Bizarrap"
+  },
+  "aInj": "Nicolás Tagliafico — desgarro en el sóleo izquierdo (baja confirmada J1)\nLeonardo Balerdi — desgarro en el sóleo de la pierna derecha (baja del torneo)\nEmiliano Martínez — fractura dedo anular mano derecha (en duda)\nCristian Romero — esguince ligamento colateral rodilla derecha (en recuperación)\nLeandro Paredes — lesión muscular (en duda)",
+  "bInj": "",
+  "pred": {
+    "a": 2,
+    "b": 0,
+    "note": "Argentina tiene jerarquía individual superior pese a las bajas defensivas. Argelia es peligrosa en transición, pero la Albiceleste con Messi en cancha raramente pierde debuts mundialistas."
+  },
+  "cta": {
+    "cara": "Argentina supera el caos y debuta con goleada",
+    "cruz": "Argelia le rompe el corazón al campeón en el estreno",
+    "ask": "Comenta CARA o CRUZ 👇"
+  },
+  "slides": {
+    "hook": true,
+    "story": true,
+    "quotes": true,
+    "stats": true,
+    "injuries": true,
+    "verdict": true,
+    "cta": true
+  }
+}
