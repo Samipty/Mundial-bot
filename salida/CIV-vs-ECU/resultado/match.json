@@ -1,0 +1,136 @@
+{
+  "mode": "resultado",
+  "account": "@caraocruzfutbol",
+  "competition": "Grupo E · J1",
+  "datetime": "2026-06-14T19:00:00-05:00",
+  "venue": "Lincoln Financial Field, Filadelfia",
+  "a": {
+    "name": "Costa de Marfil",
+    "code": "CIV",
+    "color": "#F77F00",
+    "form": [
+      "W",
+      "W",
+      "W",
+      "D",
+      "W"
+    ],
+    "star": "Amad Diallo"
+  },
+  "b": {
+    "name": "Ecuador",
+    "code": "ECU",
+    "color": "#0057A8",
+    "form": [
+      "D",
+      "D",
+      "W",
+      "D",
+      "L"
+    ],
+    "star": "Moisés Caicedo"
+  },
+  "headline": "19 PARTIDOS *INVICTO*\nY LO ROMPIÓ\nUN SUPLENTE\nEN EL ÚLTIMO SUSPIRO",
+  "hookLine": "Ecuador hizo los méritos. Costa de Marfil hizo el gol. Eso es todo lo que importa.",
+  "teaser": "La historia adentro →",
+  "score": {
+    "a": 1,
+    "b": 0
+  },
+  "goals": [
+    {
+      "minute": "90",
+      "player": "A. Diallo",
+      "team": "a"
+    }
+  ],
+  "incidents": [
+    {
+      "minute": "45",
+      "type": "amarilla",
+      "player": "F. Kessié",
+      "team": "a",
+      "note": "Amonestado por dura entrada sobre Hincapié"
+    },
+    {
+      "minute": "89",
+      "type": "polemica",
+      "player": "G. Doué",
+      "team": "a",
+      "note": "Beccacece reclamó que Doué debía ser expulsado antes del gol; el jugador fue sustituido poco después de la acción polémica"
+    }
+  ],
+  "figura": {
+    "name": "Amad Diallo",
+    "team": "a",
+    "role": "Extremo – Manchester United",
+    "stat": "Ingresó como suplente y marcó el único gol del partido al minuto 90, rompiendo el empate sin goles con un zurdazo cruzado dentro del área"
+  },
+  "story": {
+    "kicker": "Filadelfia, 14 de junio de 2026",
+    "head": "El gol que *nadie esperaba*",
+    "body": "Ecuador golpeó el poste dos veces en el primer tiempo, dominó la posesión y fue superior durante 89 minutos — pero no pudo convertir. Costa de Marfil, que regresaba al Mundial después de 12 años de ausencia, aguantó con orden y paciencia frente a una Tri que llegaba con una racha de 19 partidos sin perder. El quiebre llegó cuando Wilfried Singo desbordó por derecha y habilitó a Amad Diallo, quien ingresó desde el banco, para que definiera cruzado con la zurda ante un Galíndez sin chances. Un golpe agónico que cortó el invicto ecuatoriano y entregó tres puntos de oro a los Elefantes en su debut mundialista.",
+    "num": "90'",
+    "lab": "El minuto del gol",
+    "sub": "Diallo entró desde la banca y decidió el partido"
+  },
+  "quotes": [
+    {
+      "text": "Sobre todo fue la falta de puntería y los detalles, fuimos superiores en el primer tiempo.",
+      "who": "Sebastián Beccacece",
+      "role": "DT de Ecuador",
+      "team": "b"
+    },
+    {
+      "text": "El 4 (Doué) tenía que ser expulsado. Lo cambian por eso. Y el que pasa a jugar de lateral después del cambio hace la jugada que termina en gol.",
+      "who": "Sebastián Beccacece",
+      "role": "DT de Ecuador – reclamo post partido",
+      "team": "b"
+    },
+    {
+      "text": "Es difícil perder de esta manera.",
+      "who": "Jugador ecuatoriano",
+      "role": "Declaración post partido",
+      "team": "b"
+    }
+  ],
+  "tiles": [
+    {
+      "num": "52%",
+      "lab": "Posesión Ecuador",
+      "sub": "Dominó el balón pero no pudo convertir"
+    },
+    {
+      "num": "2",
+      "lab": "Palos de Ecuador",
+      "sub": "Yeboah y Minda golpearon el poste en el primer tiempo"
+    },
+    {
+      "num": "19",
+      "lab": "Partidos invicto",
+      "sub": "La racha de Ecuador se cortó en el minuto 90"
+    }
+  ],
+  "caption": "El fútbol no tiene piedad. Ecuador dominó, pegó en los palos dos veces y mereció más — pero un suplente llamado Amad Diallo apareció en el minuto 90 para romper 19 partidos sin perder de la Tri. Así es el Mundial. ¿Qué opinas de lo que pasó en Filadelfia?\n#CostaDeMarfil #Ecuador #Mundial2026 #GrupoE #AmadDiallo #LaTri #FIFAWorldCup2026",
+  "musicSuggestion": {
+    "song": "Coup 2 Masse",
+    "artist": "Dj Arafat"
+  },
+  "cta": {
+    "cara": "Los Elefantes merecieron: supieron esperar y ganar",
+    "cruz": "Ecuador fue mejor y el fútbol fue injusto",
+    "ask": "19 partidos invictos, rotos en un suspiro. ¿Fue justo? Comenta CARA o CRUZ 👇"
+  },
+  "closingNote": "Costa de Marfil sube al segundo lugar del Grupo E con 3 puntos, detrás de Alemania (7-1 sobre Curazao). Ecuador queda sin unidades y obligado a ganar ante Curazao el 20 de junio en Kansas City para mantener vivas sus opciones de clasificación. Los Elefantes enfrentan a Alemania el mismo día en Toronto en un duelo que podría definir el liderato del grupo.",
+  "slides": {
+    "rhook": true,
+    "story": true,
+    "goals": true,
+    "incidentes": true,
+    "figura": true,
+    "stats": true,
+    "cierre": true,
+    "doscaras": true,
+    "cta": true
+  }
+}

@@ -1,0 +1,152 @@
+{
+  "mode": "resultado",
+  "account": "@caraocruzfutbol",
+  "competition": "Grupo F · J1",
+  "datetime": "2026-06-14T20:00:00-05:00",
+  "venue": "AT&T Stadium, Dallas",
+  "a": {
+    "name": "Países Bajos",
+    "code": "NED",
+    "color": "#FF6600",
+    "form": [
+      "W",
+      "W",
+      "W",
+      "D",
+      "W"
+    ],
+    "star": "Crysencio Summerville"
+  },
+  "b": {
+    "name": "Japón",
+    "code": "JPN",
+    "color": "#BC002D",
+    "form": [
+      "W",
+      "W",
+      "D",
+      "W",
+      "W"
+    ],
+    "star": "Daichi Kamada"
+  },
+  "headline": "DOS VECES ARRIBA\nY *DOS VECES* LO DEJARON\nIR — LA NARANJA\nNO PUDO CON JAPÓN",
+  "hookLine": "Koeman sacó a su creador del mediocampo para defender... y Japón lo pagó con intereses.",
+  "teaser": "La historia está adentro →",
+  "score": {
+    "a": 2,
+    "b": 2
+  },
+  "goals": [
+    {
+      "minute": "51",
+      "player": "V. van Dijk",
+      "team": "a"
+    },
+    {
+      "minute": "57",
+      "player": "K. Nakamura",
+      "team": "b"
+    },
+    {
+      "minute": "64",
+      "player": "C. Summerville",
+      "team": "a"
+    },
+    {
+      "minute": "88",
+      "player": "D. Kamada",
+      "team": "b"
+    }
+  ],
+  "incidents": [
+    {
+      "minute": "60",
+      "type": "amarilla",
+      "player": "C. Summerville",
+      "team": "a",
+      "note": "Amonestado por falta sobre Watanabe, minutos antes de marcar el 2-1."
+    },
+    {
+      "minute": "81",
+      "type": "polemica",
+      "player": "R. Gravenberch",
+      "team": "a",
+      "note": "Koeman retiró a Gravenberch (autor de dos asistencias) para meter al defensor Aké. El equipo se retrasó y Japón aprovechó el espacio para empatar en el 88'."
+    },
+    {
+      "minute": "83",
+      "type": "amarilla",
+      "player": "M. Depay",
+      "team": "a",
+      "note": "Amonestado por falta dura en los minutos finales cuando Países Bajos intentaba frenar el empuje japonés."
+    }
+  ],
+  "figura": {
+    "name": "Crysencio Summerville",
+    "team": "a",
+    "role": "Extremo derecho — Países Bajos",
+    "stat": "1 gol (zurda, rosca al segundo palo), 1 tarjeta amarilla y el mejor rating del partido (8.2 Sofascore). Su primer gol con la Naranja en su debut mundialista."
+  },
+  "story": {
+    "kicker": "Grupo F · J1 · Dallas · 14 jun 2026",
+    "head": "La *remontada* que le costó tres puntos a la Naranja",
+    "body": "Países Bajos dominó con el 60% de la pelota pero no pudo con el carácter samurái: dos veces se fue al frente y dos veces Japón respondió. El primer tiempo terminó 0-0 con Suzuki salvador; en el segundo, Van Dijk la cabeceó (51'), Nakamura la desvió para el 1-1 (57'), Summerville firmó un golazo de zurda para el 2-1 (64') y todo apuntaba a victoria neerlandesa. Pero Koeman sacó a Gravenberch —doble asistidor— para meter un defensor en el 81', y Japón tomó esa señal como un regalo: Kamada anotó el 2-2 en el 88' tras corner de Ito.",
+    "num": "88",
+    "lab": "Minuto del empate",
+    "sub": "El gol más tardío de Japón en toda su historia mundialista"
+  },
+  "quotes": [
+    {
+      "text": "I'm disappointed that we failed to win, but even though we fell behind twice, the players never gave up and fought hard together as a team.",
+      "who": "Hajime Moriyasu",
+      "role": "Director técnico",
+      "team": "b"
+    },
+    {
+      "text": "We respect Japan, but we are Holland, and they will respect us.",
+      "who": "Ronald Koeman",
+      "role": "Director técnico",
+      "team": "a"
+    }
+  ],
+  "tiles": [
+    {
+      "num": "60%",
+      "lab": "Posesión NED",
+      "sub": "525 pases intentados vs. 342 de Japón"
+    },
+    {
+      "num": "10 vs 9",
+      "lab": "Remates totales",
+      "sub": "NED: 6 a puerta · JPN: 2 a puerta"
+    },
+    {
+      "num": "2",
+      "lab": "Asistencias Gravenberch",
+      "sub": "Autor de ambos pases de gol antes de ser sustituido"
+    }
+  ],
+  "caption": "La Naranja se fue dos veces al frente en Dallas... y dos veces Japón les borró la sonrisa. Kamada en el 88' hizo historia: el gol más tardío de Japón en un Mundial. Un punto que sabe a victoria para los Samurái, y a derrota disfrazada para los neerlandeses. 🟠🔴\n#PaísesBajos #Japón #NED #JPN #Mundial2026 #GrupoF #Summerville #Kamada",
+  "musicSuggestion": {
+    "song": "Unforgettable",
+    "artist": "Davina Michelle"
+  },
+  "cta": {
+    "cara": "Países Bajos fue superior y merece más",
+    "cruz": "Japón nunca bajó los brazos y lo logró",
+    "ask": "¿Quién dejó la historia de su lado? No hay empate: comenta CARA 🟠 o CRUZ 🔴 👇"
+  },
+  "closingNote": "Con este empate, Países Bajos y Japón arrancan el Grupo F con 1 punto cada uno. La Naranja —que por primera vez en su historia no gana el partido inaugural de un Mundial— enfrenta a Suecia el 20 de junio en Houston; Japón hace lo propio ante Túnez. Un punto que puede ser de oro o veneno, según cómo respondan en la J2.",
+  "slides": {
+    "rhook": true,
+    "story": true,
+    "goals": true,
+    "incidentes": true,
+    "figura": true,
+    "stats": true,
+    "cierre": true,
+    "doscaras": true,
+    "cta": true
+  }
+}
