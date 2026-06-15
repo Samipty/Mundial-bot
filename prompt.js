@@ -21,12 +21,25 @@ const HOOK_RULES = `Reglas del GANCHO (headline + hookLine + teaser) — la port
 - Concreto y específico de ESTE partido: nombres, números o historia real, nunca relleno.
 - Formato: 3-4 líneas, MAYÚSCULAS, con *1-2 palabras resaltadas* entre asteriscos y \\n para los saltos.
 - "hookLine": una frase que sube la apuesta SIN revelar la respuesta del titular.
-- "teaser": micro-CTA de 2-4 palabras (ej. "Te lo cuento dentro →"). Sin "swipe"/"desliza".`;
+- "teaser": micro-CTA de 2-4 palabras (ej. "Te lo cuento dentro →"). Sin "swipe"/"desliza".
+- Patrones de gancho adicionales — elige el que mejor encaje con el ángulo real del partido:
+  • Negación: abre negando lo que el lector espera ("Lo que NO va a pasar en este partido es…");
+    el vacío se cierra solo deslizando. Funciona cuando hay un pronóstico dominante que merece cuestionarse.
+  • Dato imposible: una estadística real que parece inventada (ej. "Solo perdió 1 partido de 47").
+    Úsalo únicamente si el dato es verificable y genuinamente sorprendente — nunca lo infles.
+  • Pregunta tribal: una pregunta que divide a la audiencia en dos bandos irreconciliables
+    (ej. "¿Quién tiene la historia de su lado?"). No tiene respuesta correcta; su función es
+    obligar a elegir bando antes de deslizar.`;
 
 const COMMON_SCHEMA = `Campos comunes:
 "account", "competition" (copia EXACTA del campo "Fase" recibido, ej. "Grupo G · J1" — sin expandir), "datetime", "venue" (strings),
 "a"/"b": { "name", "code"(3 letras), "color"("#RRGGBB" — vibrante y visible sobre fondo oscuro #0A0E14; si el color del equipo es blanco o muy claro, usa su color secundario oscuro en su lugar), "form"(["W"|"D"|"L"]x5), "star" },
 "story": { "kicker","head"(*resalta*),"body","num","lab","sub" },
+  // "body": 4 frases cortas que siguen el arco emocional Tensión → Contexto → Peak → Consecuencia.
+  //   F1 Tensión: la pregunta o conflicto que define el partido (qué está en juego / qué falló).
+  //   F2 Contexto: el dato o antecedente que explica POR QUÉ eso importa ahora.
+  //   F3 Peak: el momento bisagra — el gol, la jugada, la decisión que lo cambió todo.
+  //   F4 Consecuencia: qué significa para la clasificación, la historia o el equipo.
 "quotes": [ { "text","who","role","team":"a"|"b" } ],
 "tiles": [ { "num","lab","sub" } x3 ],
 "caption": string — pie de foto para Instagram (2-4 líneas + hashtags al final).
@@ -44,6 +57,10 @@ const COMMON_SCHEMA = `Campos comunes:
   Cada una ≤8 palabras, concreta y con tensión, sin empate tibio: deben dar ganas de
   elegir bando. "cara" va con la selección "a", "cruz" con la "b". "ask" es una
   invitación corta a comentar el pick (ej. "Comenta CARA o CRUZ 👇"). Sin "swipe"/"desliza".
+  El "ask" debe cumplir dos condiciones: (1) return-hook clause — retomar una palabra clave
+  del "headline" de portada para cerrar el círculo narrativo (ej. si el titular habla de
+  "historia", el ask remata con ese concepto); (2) la elección debe sonar binaria e inevitable,
+  sin margen de empate (ej. "No hay empate posible: ¿CARA o CRUZ?" / "Elige bando y comenta 👇").
 "slides": objeto de booleanos.
 "head"/"headline" usan \\n para saltos y *asteriscos* para resaltar 1-2 palabras.
 Usa colores distintos para a y b. Titulares de 3-4 líneas máx.`;
