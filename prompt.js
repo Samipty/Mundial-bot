@@ -71,9 +71,10 @@ ESQUEMA (modo previa):
   "headline": string, "hookLine": string, "teaser": string,
   "aInj": string ("Jugador — motivo" por línea; "" si no hay), "bInj": string,
   "pred": { "a": number, "b": number, "note": string },
-  "slides": {"hook":true,"story":true,"quotes":true,"stats":true,"injuries":true,"verdict":true,"cta":true}
+  "slides": {"hook":true,"story":true,"quotes":true,"stats":true,"verdict":true,"cta":true}
 }
-Investiga: forma (últimos 5), jugadores clave, lesiones/sanciones, ángulo de la previa,
+Investiga: forma (últimos 5), jugadores clave, lesiones/sanciones (se muestran integradas
+en el slide "story", no en slide separado), ángulo de la previa,
 1-3 citas reales, 3 datos. Elige la "formula" que mejor encaje con el ángulo REAL del partido:
 gap (vacío de información), question (pregunta abierta), duel (duelo de figuras),
 surprise (dato que sorprende), stakes (lo que está en juego), countdown (lista con una clave
