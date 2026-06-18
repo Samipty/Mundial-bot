@@ -1,0 +1,108 @@
+{
+  "mode": "previa",
+  "account": "@caraocruzfutbol",
+  "competition": "Grupo A · J2",
+  "datetime": "Jue 18 Jun · 19:00 (CDMX)",
+  "venue": "Estadio Akron, Guadalajara",
+  "a": {
+    "name": "México",
+    "code": "MEX",
+    "color": "#006847",
+    "form": [
+      "D",
+      "W",
+      "W",
+      "W",
+      "W"
+    ],
+    "star": "Raúl Jiménez"
+  },
+  "b": {
+    "name": "Corea del Sur",
+    "code": "KOR",
+    "color": "#C60C30",
+    "form": [
+      "L",
+      "L",
+      "W",
+      "W",
+      "W"
+    ],
+    "star": "Son Heung-min"
+  },
+  "formula": "duel",
+  "headline": "EL *'SONALDO'* QUE MÉXICO\nADORA LLEGA A GUADALAJARA\nPARA ROMPERLE EL CORAZÓN\nAL TRI",
+  "hookLine": "La afición mexicana lo quiere como a un hijo — pero esta noche él viene por los tres puntos.",
+  "teaser": "La historia completa →",
+  "story": {
+    "kicker": "DUELO DE LÍDERES · GRUPO A",
+    "head": "Sin su capitán en defensa, México enfrenta al rival que *más le duele* perder",
+    "body": "¿Puede el Tri controlar a Son Heung-min con una zaga remendada? César Montes cumple suspensión por expulsión directa ante Sudáfrica, y Aguirre debe rearmar la defensa central más importante del torneo. El historial dice que México ganó los dos únicos Mundiales que jugaron juntos —Francia 98 y Rusia 2018—, pero nunca con la zaga tan expuesta como hoy. Si los coreanos explotan las transiciones con su velocidad de ataque, la clasificación del Tri puede complicarse antes de tiempo.",
+    "num": "2",
+    "lab": "Victorias MEX vs KOR en Mundiales",
+    "sub": "Francia 98 (3-1) y Rusia 18 (2-1) — invicto histórico en juego"
+  },
+  "quotes": [
+    {
+      "text": "México va a ser un poco diferente debido a la altitud, un reto difícil, pero estamos aquí para ganar.",
+      "who": "Son Heung-min",
+      "role": "Capitán y delantero",
+      "team": "b"
+    },
+    {
+      "text": "Obviamente, cuando juguemos uno contra el otro, ¡probablemente me odien de nuevo!",
+      "who": "Son Heung-min",
+      "role": "Capitán y delantero — sobre su relación con la afición mexicana",
+      "team": "b"
+    },
+    {
+      "text": "Estoy feliz y emocionado por haber marcado mi primer gol en un Mundial, en un estadio tan espectacular y ante una afición increíble.",
+      "who": "Raúl Jiménez",
+      "role": "Delantero titular de México — tras el 2-0 a Sudáfrica",
+      "team": "a"
+    }
+  ],
+  "tiles": [
+    {
+      "num": "2-0",
+      "lab": "Debut del Tri",
+      "sub": "México goleó a Sudáfrica en el arranque — sin encajar ningún gol"
+    },
+    {
+      "num": "0",
+      "lab": "Victorias KOR vs MEX",
+      "sub": "Corea nunca ha vencido a México en los tres enfrentamientos registrados (2V MEX / 1E)"
+    },
+    {
+      "num": "1",
+      "lab": "Baja MEX por sanción",
+      "sub": "César Montes, suspendido por roja directa — Aguirre debe reinventar la zaga central"
+    }
+  ],
+  "aInj": "César Montes — suspensión (tarjeta roja vs Sudáfrica)\nLuis Malagón — rotura tendón de Aquiles (baja para el torneo)",
+  "bInj": "Kim Min-jae — molestia de tobillo (evolución positiva, disponible)\nBae Jun-ho — molestia de tobillo (evolución positiva, disponible)\nTae-hyeon Kim — tobillo, recuperación en curso",
+  "pred": {
+    "a": 2,
+    "b": 1,
+    "note": "México es favorito por localía y superioridad histórica en Mundiales, pero la baja de Montes y la velocidad de Son son factores de riesgo reales. Se espera partido cerrado con pocas llegadas claras."
+  },
+  "caption": "El 'Sonaldo' que México adora llega hoy a Guadalajara con una misión clara: romper el invicto mundialista del Tri. 🇲🇽🆚🇰🇷\n\nDos líderes del Grupo A. Dos victorias en J1. Un solo ganador avanza con el boleto casi asegurado.\n\nMéxico sin su capitán en defensa. Corea con el mejor Son de los últimos años. Esta noche en el Akron se escribe historia — o se repite.\n\n#Mexico #CoreaDelSur #Mundial2026 #FIFAWorldCup2026 #GrupoA #Tri #SonHeungmin #Guadalajara",
+  "musicSuggestion": {
+    "song": "Ella Baila Sola",
+    "artist": "Eslabon Armado & Peso Pluma"
+  },
+  "cta": {
+    "cara": "México rompe el corazón del 'Sonaldo' en casa",
+    "cruz": "Son revienta el invicto mundialista del Tri",
+    "ask": "El corazón que estás a punto de romper — ¿es el tuyo o el de ellos? Comenta CARA o CRUZ 👇"
+  },
+  "slides": {
+    "hook": true,
+    "story": true,
+    "quotes": true,
+    "stats": true,
+    "verdict": true,
+    "doscaras": true,
+    "cta": true
+  }
+}

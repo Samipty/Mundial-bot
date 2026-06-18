@@ -1,0 +1,107 @@
+{
+  "account": "@caraocruzfutbol",
+  "competition": "Grupo E · J2",
+  "datetime": "2026-06-20T16:00:00-04:00",
+  "venue": "BMO Field, Toronto, Canadá",
+  "a": {
+    "name": "Alemania",
+    "code": "GER",
+    "color": "#000000",
+    "form": [
+      "W",
+      "W",
+      "W",
+      "W",
+      "W"
+    ],
+    "star": "Florian Wirtz"
+  },
+  "b": {
+    "name": "Costa de Marfil",
+    "code": "CIV",
+    "color": "#F77F00",
+    "form": [
+      "W",
+      "W",
+      "W",
+      "W",
+      "W"
+    ],
+    "star": "Amad Diallo"
+  },
+  "formula": "duel",
+  "headline": "7 GOLES VS 1 GOL:\n¿QUIÉN TIENE *LA DEFENSA* QUE\nPUEDE FRENAR A LA\n*MÁQUINA ALEMANA*?",
+  "hookLine": "Los Elefantes derribaron a Francia. Ahora llega el rival más peligroso del grupo.",
+  "teaser": "El dato está adentro →",
+  "story": {
+    "kicker": "DUELO POR EL LIDERATO · GRUPO E · J2",
+    "head": "Dos victorias, *dos mundos* diferentes",
+    "body": "Alemania llega a Toronto tras arrasar 7-1 a Curazao, pero Costa de Marfil viene de hacer historia: venció a Francia en amistoso y abrió el torneo con un gol de Amad Diallo al minuto 90 ante Ecuador. El verdadero examen para la Mannschaft no es el marcador, sino si su defensa de línea alta resiste la velocidad de los extremos marfileños. Este partido define al líder del Grupo E: el ganador entra a octavos con el pie derecho y la cabeza despejada.",
+    "num": "1",
+    "lab": "único antecedente histórico",
+    "sub": "Alemania 2-2 Costa de Marfil (amistoso, nov. 2009) — el único partido entre ambas selecciones terminó en empate"
+  },
+  "quotes": [
+    {
+      "text": "En la Euro 2024 demostramos que tenemos la calidad para ser fuertes aspirantes.",
+      "who": "Jamal Musiala",
+      "role": "Mediocampista ofensivo",
+      "team": "a"
+    },
+    {
+      "text": "Vinimos aquí a hacer historia. Todavía tenemos dos partidos más y necesitamos afrontarlos con la misma mentalidad.",
+      "who": "Amad Diallo",
+      "role": "Extremo — goleador vs. Ecuador",
+      "team": "b"
+    },
+    {
+      "text": "Costa de Marfil es un equipo que puede ser derrotado, pero que no debe ser menospreciado.",
+      "who": "Julian Nagelsmann",
+      "role": "Entrenador de Alemania",
+      "team": "a"
+    }
+  ],
+  "tiles": [
+    {
+      "num": "7-1",
+      "lab": "Debut alemán ante Curazao",
+      "sub": "El marcador más amplio de la fase de grupos hasta ahora. Wirtz, Musiala y Havertz: trío imparable."
+    },
+    {
+      "num": "90'",
+      "lab": "Minuto del gol marfileño",
+      "sub": "Amad Diallo entró desde el banco y definió al 90' para hundir a Ecuador — el goleador más joven de Costa de Marfil en Mundiales (23 años)."
+    },
+    {
+      "num": "1",
+      "lab": "Enfrentamiento en toda la historia",
+      "sub": "Solo se vieron las caras una vez, en noviembre de 2009: empate 2-2 en amistoso. Este será su primer duelo oficial."
+    }
+  ],
+  "aInj": "Lennart Karl — lesión previa al torneo (baja definitiva)",
+  "bInj": "Evan N'Dicka — lesión (baja confirmada)",
+  "pred": {
+    "a": 2,
+    "b": 1,
+    "note": "Alemania parte amplia favorita por potencia ofensiva y profundidad de plantilla, pero el bloque bajo marfileño y la amenaza de Diallo en transición mantienen el partido abierto. Se espera un partido más disputado que el 7-1 del debut."
+  },
+  "caption": "Dos selecciones perfectas en este Mundial, un solo lugar disponible en la cima del Grupo E. Alemania goleó 7-1 en su debut; Costa de Marfil ganó con un gol en el minuto 90 al ritmo de Amad Diallo. El sábado 20 de junio en Toronto se decide quién manda. ¿Quién tiene tu apuesta?\n\n#Alemania #CostaDeMarfil #Mannschaft #LosElefantes #Mundial2026 #GrupoE #FIFAWorldCup2026",
+  "musicSuggestion": {
+    "song": "Morgen",
+    "artist": "Apache 207"
+  },
+  "cta": {
+    "cara": "Alemania aplasta y lidera el grupo con autoridad",
+    "cruz": "Los Elefantes frenan a la máquina y roban el liderato",
+    "ask": "¿Quién hace historia en Toronto? CARA o CRUZ 👇"
+  },
+  "slides": {
+    "hook": true,
+    "story": true,
+    "quotes": true,
+    "stats": true,
+    "verdict": true,
+    "doscaras": true,
+    "cta": true
+  }
+}

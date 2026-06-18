@@ -1,0 +1,108 @@
+{
+  "mode": "previa",
+  "account": "@caraocruzfutbol",
+  "competition": "Grupo C · J2",
+  "datetime": "Vie 19 Jun 2026 · 8:30 PM ET",
+  "venue": "Philadelphia Stadium, Filadelfia, EE.UU.",
+  "a": {
+    "name": "Brasil",
+    "code": "BRA",
+    "color": "#F7D116",
+    "form": [
+      "L",
+      "W",
+      "W",
+      "W",
+      "D"
+    ],
+    "star": "Vinícius Jr."
+  },
+  "b": {
+    "name": "Haití",
+    "code": "HAI",
+    "color": "#D21034",
+    "form": [
+      "L",
+      "D",
+      "W",
+      "L",
+      "L"
+    ],
+    "star": "Jean-Ricner Bellegarde"
+  },
+  "formula": "surprise",
+  "headline": "LA ÚLTIMA VEZ QUE SE VIERON\n*BRASIL MARCÓ 7* Y HAITÍ UNO.\nESOCIA YA GANÓ.\n¿Y SI HOY ES DIFERENTE?",
+  "hookLine": "El pentacampeón llega con un empate que duele y Haití con 52 años de hambre. Filadelfia no va a ser un trámite.",
+  "teaser": "El dato está adentro →",
+  "story": {
+    "kicker": "GRUPO C · JORNADA 2",
+    "head": "Brasil necesita ganar.\nHaití necesita *un milagro*.\nO quizás no tanto.",
+    "body": "Brasil llegó al Mundial prometiendo sexta estrella, pero Marruecos le empató 1-1 y Alisson tuvo que hacer una doble atajada en el último minuto para salvar el punto. Mientras tanto, Escocia lidera el Grupo C y los cariocas se quedaron terceros: el guion no salió como Ancelotti lo dibujó. Haití, en cambio, perdió 1-0 ante Escocia, pero con dignidad — un equipo construido en la diáspora que no ha pisado su propio estadio desde que las pandillas lo tomaron, que clasificó al Mundial 52 años después sin jugar un solo partido en casa. Si Brasil no gana hoy con claridad, el duelo contra Escocia en J3 puede convertirse en una final.",
+    "num": "7",
+    "lab": "goles de Brasil",
+    "sub": "en el único precedente oficial: Copa América 2016"
+  },
+  "quotes": [
+    {
+      "text": "\"En el Mundial todo comienza desde cero. Estamos aquí para cambiar la historia.\"",
+      "who": "Vinícius Jr.",
+      "role": "Delantero, Brasil",
+      "team": "a"
+    },
+    {
+      "text": "\"Me he comprometido con un grupo, un equipo, una familia, mi nación.\"",
+      "who": "Jean-Ricner Bellegarde",
+      "role": "Mediocampista, Haití (Wolverhampton)",
+      "team": "b"
+    },
+    {
+      "text": "\"Como respetamos a Marruecos, tenemos que respetar también a Escocia y Haití.\"",
+      "who": "Carlo Ancelotti",
+      "role": "Director técnico, Brasil",
+      "team": "a"
+    }
+  ],
+  "tiles": [
+    {
+      "num": "52",
+      "lab": "años de espera",
+      "sub": "Haití regresa al Mundial por primera vez desde 1974 — la mayor sequía mundialista del Grupo C"
+    },
+    {
+      "num": "1 de 1",
+      "lab": "H2H oficial",
+      "sub": "Solo se enfrentaron una vez: Brasil ganó 7-1 en la Copa América Centenario 2016 (Orlando)"
+    },
+    {
+      "num": "88%",
+      "lab": "prob. Brasil gana",
+      "sub": "Así lo valoran los mercados de predicción (Kalshi). Haití cotiza apenas 5%"
+    }
+  ],
+  "caption": "Brasil llega a Filadelfia con el ego raspado tras el empate con Marruecos. Haití llega con 52 años de historia y nada que perder. El último precedente fue 7-1. ¿Pero cuándo fue la última vez que el fútbol respetó los precedentes? 🇧🇷🆚🇭🇹 #Brasil #Haiti #Mundial2026 #GrupoC #FIFAWorldCup2026 #Seleção #LesGrenadiers",
+  "musicSuggestion": {
+    "song": "Bota pra Ferver",
+    "artist": "Anitta"
+  },
+  "cta": {
+    "cara": "Brasil golea y despierta al gigante dormido",
+    "cruz": "Haití resiste y escribe la historia del torneo",
+    "ask": "52 años esperando este momento. ¿Quién escribe la historia hoy? Comenta CARA 🇧🇷 o CRUZ 🇭🇹 👇"
+  },
+  "aInj": "",
+  "bInj": "",
+  "pred": {
+    "a": 4,
+    "b": 0,
+    "note": "Brasil necesita una goleada para mejorar su diferencial de goles de cara al duelo decisivo con Escocia en J3. Haití puede resistir en bloque, pero carece de los recursos individuales para frenar a Vinícius Jr. y Raphinha durante 90 minutos."
+  },
+  "slides": {
+    "hook": true,
+    "story": true,
+    "quotes": true,
+    "stats": true,
+    "verdict": true,
+    "doscaras": true,
+    "cta": true
+  }
+}

@@ -1,0 +1,108 @@
+{
+  "mode": "previa",
+  "account": "@caraocruzfutbol",
+  "competition": "Grupo D · J2",
+  "datetime": "Vie 19 Jun 2026",
+  "venue": "Lumen Field, Seattle",
+  "a": {
+    "name": "Estados Unidos",
+    "code": "USA",
+    "color": "#B22234",
+    "form": [
+      "L",
+      "L",
+      "W",
+      "L",
+      "W"
+    ],
+    "star": "Folarin Balogun"
+  },
+  "b": {
+    "name": "Australia",
+    "code": "AUS",
+    "color": "#FFD700",
+    "form": [
+      "W",
+      "W",
+      "L",
+      "D",
+      "W"
+    ],
+    "star": "Nestory Irankunda"
+  },
+  "formula": "stakes",
+  "headline": "EL BOLETO AL *SIGUIENTE ROUND*\nSE DECIDE HOY EN SEATTLE:\n¿PUEDE *PULISIC* JUGAR\nCON UN PIE LESIONADO?",
+  "hookLine": "Dos ganadores, una sola cima: el que cae hoy tiene que rezar en la última jornada.",
+  "teaser": "El detalle dentro →",
+  "story": {
+    "kicker": "DUELO DE LÍDERES · GRUPO D",
+    "head": "El Grupo D ya tiene dos ganadores.\nAhora necesita un *líder*.",
+    "body": "Estados Unidos y Australia llegan a Seattle habiendo ganado sus debuts — los Socceroos hundieron 2-0 a Turquía, mientras que la anfitriona goleó 4-1 a Paraguay en la noche inaugural. La gran duda que sobrevuela el Lumen Field: Christian Pulisic, el máximo goleador activo del USMNT con 33 anotaciones, salió al descanso del debut con una lesión de pantorrilla y entrenó diferenciado toda la semana, con estado 'día a día'. Si el capitán no llega al cien por ciento, el juego ofensivo de Estados Unidos se apaga desde la banda izquierda. Del otro lado, el joven Nestory Irankunda (20 años, Watford) ya marcó en el debut y es el X-factor de Australia: vertiginoso, de golpe poderoso y con muy pocas ganas de respetar jerarquías. El ganador cierra su clasificación a octavos con una jornada de anticipo; el perdedor, a rogarle a los resultados ajenos.",
+    "num": "4-1",
+    "lab": "Goleada USA en J1",
+    "sub": "El debut más contundente del USMNT en un Mundial desde 2010"
+  },
+  "quotes": [
+    {
+      "text": "El rendimiento fue realmente bueno. Jugamos muy bien... pero esto es solo el comienzo. Todavía quedan dos partidos por jugar.",
+      "who": "Mauricio Pochettino",
+      "role": "Entrenador",
+      "team": "a"
+    },
+    {
+      "text": "Esta puede ser la Copa del Mundo en que Australia llegue verdaderamente lejos. No sé por qué habría que esperar más.",
+      "who": "Tony Popovic",
+      "role": "Entrenador",
+      "team": "b"
+    },
+    {
+      "text": "Es un sueño, una noche soñada.",
+      "who": "Folarin Balogun",
+      "role": "Delantero (doblete vs. Paraguay)",
+      "team": "a"
+    }
+  ],
+  "tiles": [
+    {
+      "num": "1",
+      "lab": "Solo 1 antecedente directo",
+      "sub": "USA ganó el único enfrentamiento registrado. En mundiales, jamás se habían cruzado."
+    },
+    {
+      "num": "8/8",
+      "lab": "Paradas de Beach (AUS) en J1",
+      "sub": "El arquero Patrick Beach detuvo los 8 remates que enfrentó ante Turquía: el muro detrás de Irankunda."
+    },
+    {
+      "num": "33",
+      "lab": "Goles de Pulisic con USA",
+      "sub": "El máximo goleador activo del USMNT llega con lesión de pantorrilla y status 'día a día' para este partido."
+    }
+  ],
+  "aInj": "Christian Pulisic — lesión de pantorrilla (día a día, salió al descanso vs. Paraguay)",
+  "bInj": "",
+  "pred": {
+    "a": 2,
+    "b": 1,
+    "note": "Estados Unidos tiene el factor local en Seattle y un ataque más profundo. Si Pulisic juega aunque sea al 70%, Balogun tiene el espacio para definir. Australia apostará al bloque bajo y el contragolpe de Irankunda, pero la diferencia de recursos ofensivos es difícil de compensar."
+  },
+  "caption": "Dos equipos que ya ganaron en el Mundial. Solo uno puede quedarse con la cima del Grupo D hoy en Seattle. 🇺🇸🆚🇦🇺\n\nBalogun ya marcó dos. Irankunda ya marcó uno. Pulisic llega con la pantorrilla vendada. El partido más atractivo de la jornada tiene nombre, estadio y una pregunta enorme sin responder.\n\n¿Quién sella el pasaje a octavos antes de la última fecha?\n\n#USA #Socceroos #Mundial2026 #GrupoD #USMNT #FIFAWorldCup2026",
+  "musicSuggestion": {
+    "song": "STAY",
+    "artist": "The Kid LAROI"
+  },
+  "cta": {
+    "cara": "USA sella el boleto: Balogun hace el resto",
+    "cruz": "Australia da el golpe y lidera el grupo",
+    "ask": "El que pierde hoy reza en la última jornada. ¿CARA o CRUZ? 👇"
+  },
+  "slides": {
+    "hook": true,
+    "story": true,
+    "quotes": true,
+    "stats": true,
+    "verdict": true,
+    "doscaras": true,
+    "cta": true
+  }
+}

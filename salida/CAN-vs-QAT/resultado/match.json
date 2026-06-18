@@ -1,0 +1,135 @@
+{
+  "mode": "resultado",
+  "account": "@caraocruzfutbol",
+  "competition": "Grupo B · J2",
+  "datetime": "2026-06-18T22:00Z",
+  "venue": "BC Place, Vancouver, Canadá",
+  "a": {
+    "name": "Canadá",
+    "code": "CAN",
+    "color": "#D80027",
+    "form": [
+      "D",
+      "W",
+      "W",
+      "W",
+      "D"
+    ],
+    "star": "Jonathan David"
+  },
+  "b": {
+    "name": "Catar",
+    "code": "QAT",
+    "color": "#8D1B3D",
+    "form": [
+      "D",
+      "L",
+      "L",
+      "L",
+      "D"
+    ],
+    "star": "Akram Afif"
+  },
+  "headline": "LA *PRIMERA VEZ* EN LA HISTORIA\nDE CANADÁ EN UN MUNDIAL\nNO FUE UN SUEÑO:\n*FUE LARIN Y DAVID*",
+  "hookLine": "40 años sin ganar un partido mundialista. Esta noche, el número cambió para siempre.",
+  "teaser": "La historia, adentro →",
+  "story": {
+    "kicker": "HISTORIA EN VANCOUVER",
+    "head": "La *primera victoria* mundialista de Canadá",
+    "body": "¿Podía Canadá cerrar por fin la herida de 40 años sin ganar en un Mundial? La presión era enorme: empate en el debut, Davies apenas en el banco y Jonathan David cargando la sequía de un delantero que no había marcado todavía. Larin abrió el marcador aprovechando un rebote ante Abunada, y David selló el 2-0 para confirmar que el país anfitrión no iba a desperdiciar esta cita. El triunfo catapulta a Canadá al frente del Grupo B con cuatro puntos y pone a los de Marsch a un paso de los octavos de final.",
+    "num": "40",
+    "lab": "años",
+    "sub": "sin ganar un partido en un Mundial — hasta hoy"
+  },
+  "quotes": [
+    {
+      "text": "We've got them — now it's time to put your foot on the jugular and go for the goal.",
+      "who": "Jesse Marsch",
+      "role": "Director técnico",
+      "team": "a"
+    },
+    {
+      "text": "I always prove them wrong. I did it again.",
+      "who": "Cyle Larin",
+      "role": "Delantero, goleador del partido",
+      "team": "a"
+    }
+  ],
+  "tiles": [
+    {
+      "num": "2-0",
+      "lab": "Resultado final",
+      "sub": "Primera victoria mundialista de Canadá en su historia"
+    },
+    {
+      "num": "39 + 31",
+      "lab": "Goles históricos",
+      "sub": "David (39) y Larin (31): los dos máximos goleadores de Canadá celebran juntos"
+    },
+    {
+      "num": "61%",
+      "lab": "Posesión",
+      "sub": "Canadá dominó el juego como en el debut, pero esta vez sí convirtió"
+    }
+  ],
+  "caption": "40 años de espera. Una noche en Vancouver. Y los dos mejores goleadores de la historia de Canadá firmaron juntos el gol de la victoria. Larin y David reescribieron el libro. 🍁🏆\n\n#Canada #Canadá #Qatar #Catar #Mundial2026 #FIFAWorldCup2026 #GrupoB #CANMNT #JonathanDavid #CyleLarin",
+  "musicSuggestion": {
+    "song": "Lie to Me",
+    "artist": "bülow"
+  },
+  "cta": {
+    "cara": "Canadá ya es equipo de octavos — historia real",
+    "cruz": "Catar se hunde: eliminación casi segura",
+    "ask": "La primera vez ya pasó — ¿CARA o CRUZ? 👇"
+  },
+  "score": {
+    "a": 2,
+    "b": 0
+  },
+  "goals": [
+    {
+      "minute": "~20",
+      "player": "Cyle Larin",
+      "team": "a"
+    },
+    {
+      "minute": "~60",
+      "player": "Jonathan David",
+      "team": "a"
+    }
+  ],
+  "incidents": [
+    {
+      "minute": "~15",
+      "type": "amarilla",
+      "player": "Derek Cornelius",
+      "team": "a",
+      "note": "Amonestación temprana; Canadá tuvo que defender el tiro libre resultante"
+    },
+    {
+      "minute": "~35",
+      "type": "polemica",
+      "player": "Boualem Khoukhi",
+      "team": "b",
+      "note": "El capitán catarí recibió un golpe en la cabeza al chocar con Cornelius; fue atendido en el campo y pudo continuar"
+    }
+  ],
+  "figura": {
+    "name": "Jonathan David",
+    "team": "a",
+    "role": "Delantero centro",
+    "stat": "Gol decisivo para el 2-0; máximo goleador histórico de Canadá con 39 tantos internacionales"
+  },
+  "closingNote": "Con 4 puntos en el Grupo B, Canadá se convierte en líder del grupo y se acerca fuertemente a los octavos de final. Catar, en cambio, queda con 1 punto y necesita un milagro en la última jornada. El partido siguiente de Canadá es ante Suiza, el 22 de junio, con la clasificación casi en el bolsillo.",
+  "slides": {
+    "rhook": true,
+    "story": true,
+    "goals": true,
+    "incidentes": true,
+    "figura": true,
+    "stats": true,
+    "cierre": true,
+    "doscaras": true,
+    "cta": true
+  }
+}

@@ -1,0 +1,149 @@
+{
+  "mode": "resultado",
+  "account": "@caraocruzfutbol",
+  "competition": "Grupo A · J2",
+  "datetime": "Jue 18 Jun 2026 · 12:00 (ET)",
+  "venue": "Mercedes-Benz Stadium, Atlanta",
+  "a": {
+    "name": "Chequia",
+    "code": "CZE",
+    "color": "#D7141A",
+    "form": [
+      "L",
+      "L",
+      "W",
+      "W",
+      "D"
+    ],
+    "star": "Patrik Schick"
+  },
+  "b": {
+    "name": "Sudáfrica",
+    "code": "RSA",
+    "color": "#007A4D",
+    "form": [
+      "L",
+      "L",
+      "D",
+      "W",
+      "L"
+    ],
+    "star": "Teboho Mokoena"
+  },
+  "headline": "EL GOL MÁS RÁPIDO\nDEL MUNDIAL *NO ALCANZÓ*:\nCHEQUIA DESPERDICIÓ\nY SUDÁFRICA COBRÓ",
+  "hookLine": "Dominaron 77 minutos. Un brazo lo tiró todo abajo.",
+  "teaser": "La historia completa →",
+  "score": {
+    "a": 1,
+    "b": 1
+  },
+  "goals": [
+    {
+      "minute": "6",
+      "player": "M. Sadilek",
+      "team": "a"
+    },
+    {
+      "minute": "83",
+      "player": "T. Mokoena",
+      "team": "b"
+    }
+  ],
+  "incidents": [
+    {
+      "minute": "33",
+      "type": "amarilla",
+      "player": "T. Mokoena",
+      "team": "b",
+      "note": "Amonestado por falta dura sobre un rival checo."
+    },
+    {
+      "minute": "40",
+      "type": "amarilla",
+      "player": "T. Mbatha",
+      "team": "b",
+      "note": "Segunda amarilla a un sudafricano en la primera mitad, ambos de la línea media."
+    },
+    {
+      "minute": "75",
+      "type": "amarilla",
+      "player": "L. Krejci",
+      "team": "a",
+      "note": "Amonestado por entrada dura sobre Maseko."
+    },
+    {
+      "minute": "81",
+      "type": "var",
+      "player": "P. Sulc",
+      "team": "a",
+      "note": "El VAR confirmó mano de Sulc tras remate de Maseko dentro del área. La árbitra Tori Penso señaló el penalti tras revisión; Mokoena convirtió en el 83'."
+    }
+  ],
+  "figura": {
+    "name": "Teboho Mokoena",
+    "team": "b",
+    "role": "Mediocampista / Cobrador del penal",
+    "stat": "Convirtió el penal del empate (83') y fue el jugador más determinante de la segunda mitad pese a haber sido amonestado en el 33'."
+  },
+  "story": {
+    "kicker": "GRUPO A · J2 · ATLANTA",
+    "head": "El gol más *rápido* del Mundial\nno fue suficiente",
+    "body": "Chequia se adueñó del partido a los seis segundos de los seis minutos: Sadilek anotó el gol más tempranero de la Copa del Mundo 2026 y los checos parecían encaminados a sus primeros tres puntos. Pero sin la contundencia de Schick —que falló cabezazos clave en ambas mitades— la ventaja nunca se amplió, y Sudáfrica aprovechó el desgaste. La jugada que lo cambió todo llegó al 81': un remate de Maseko le pegó en el brazo a Sulc, el VAR confirmó el penalti y Mokoena, que había sido amarillo en el 33', cobró sin temblar. Con un punto cada uno y la eliminación acechando, ambos se jugarán el todo por el todo en la última fecha.",
+    "num": "6'",
+    "lab": "Gol más rápido del Mundial 2026",
+    "sub": "Sadilek, asistido por Sojka"
+  },
+  "quotes": [
+    {
+      "text": "Estoy muy orgulloso de mi equipo. Tenemos buen fútbol, somos agresivos, tenemos ocasiones.",
+      "who": "Hugo Broos",
+      "role": "Seleccionador de Sudáfrica",
+      "team": "b"
+    },
+    {
+      "text": "Lamentamos este resultado; me parece que nosotros estuvimos más cerca de la victoria.",
+      "who": "Miroslav Koubek",
+      "role": "Seleccionador de Chequia",
+      "team": "a"
+    }
+  ],
+  "tiles": [
+    {
+      "num": "60%",
+      "lab": "Posesión Sudáfrica",
+      "sub": "Chequia solo tuvo el 32% (FIFA)"
+    },
+    {
+      "num": "17",
+      "lab": "Remates de Sudáfrica",
+      "sub": "vs. 14 de Chequia (FIFA)"
+    },
+    {
+      "num": "1.37",
+      "lab": "xG Sudáfrica",
+      "sub": "vs. 1.02 de Chequia (ESPN)"
+    }
+  ],
+  "caption": "Un gol en 6 minutos. Un brazo en el 81. Y un punto que sabe a poco para los dos.\n\nChequia marcó el tanto más rápido de este Mundial, pero Mokoena no perdonó desde los once pasos y le arrancó el triunfo a los checos en el último suspiro.\n\nAmbos siguen con 1 punto. La próxima ya no admite errores.\n\n#Chequia #Sudáfrica #CZEvRSA #Mundial2026 #GrupoA #BafanaBafana #FIFAWorldCup2026",
+  "musicSuggestion": {
+    "song": "Ke Star",
+    "artist": "Focalistic ft. Davido"
+  },
+  "cta": {
+    "cara": "Chequia desperdició el partido, punto merecido",
+    "cruz": "Sudáfrica sobrevivió con garra y carácter",
+    "ask": "El gol más rápido del Mundial no alcanzó: ¿CARA o CRUZ? Comenta tu lado 👇"
+  },
+  "closingNote": "Con un punto cada uno tras dos fechas, Chequia (J3 vs. Corea del Sur) y Sudáfrica (J3 vs. México) necesitan ganar obligatoriamente para tener chances reales de clasificar. Un empate en la última jornada probablemente elimina a ambos. El Grupo A sigue completamente abierto.",
+  "slides": {
+    "rhook": true,
+    "story": true,
+    "goals": true,
+    "incidentes": true,
+    "figura": true,
+    "stats": true,
+    "cierre": true,
+    "doscaras": true,
+    "cta": true
+  }
+}

@@ -1,0 +1,107 @@
+{
+  "account": "@caraocruzfutbol",
+  "competition": "Grupo F · J2",
+  "datetime": "2026-06-20T13:00:00-05:00",
+  "venue": "NRG Stadium, Houston, Texas",
+  "a": {
+    "name": "Países Bajos",
+    "code": "NED",
+    "color": "#FF6600",
+    "form": [
+      "W",
+      "D",
+      "L",
+      "W",
+      "D"
+    ],
+    "star": "Cody Gakpo"
+  },
+  "b": {
+    "name": "Suecia",
+    "code": "SWE",
+    "color": "#006AA7",
+    "form": [
+      "W",
+      "W",
+      "L",
+      "D",
+      "W"
+    ],
+    "star": "Viktor Gyökeres"
+  },
+  "formula": "duel",
+  "headline": "LA *NARANJA* LLEGA ROTA\nY EL EQUIPO QUE *CASI NO CLASIFICA*\nYA GOLEÓ 5-1 EN ESTE MUNDIAL.\n¿QUIÉN MANDA EN EL GRUPO F?",
+  "hookLine": "Suecia lidera el grupo. Países Bajos no puede permitirse otro tropiezo. Houston decide quién va primero.",
+  "teaser": "El duelo está adentro →",
+  "story": {
+    "kicker": "Duelo de destinos en Houston",
+    "head": "La *Oranje* contra la pared: ganar o complicarse la vida",
+    "body": "Países Bajos empató 2-2 con Japón en su debut: dos veces se puso arriba y dos veces lo empataron, con el golpe definitivo en el minuto final. Suecia, en cambio, entró al torneo con una goleada 5-1 ante Túnez —su mayor victoria mundialista desde 1938— y lidera el Grupo F con diferencia de goles. La diferencia de inercias es brutal: Gyökeres e Isak ya conectaron juntos en competencia oficial por primera vez bajo Potter, y el resultado fue demoledor. Si los holandeses no ganan este partido, la presión del tercer duelo contra Túnez puede volverse sofocante para un equipo que llega al Mundial como el mejor sin título de la historia.",
+    "num": "5",
+    "lab": "goles sueca en J1",
+    "sub": "Mayor goleada sueca en un Mundial desde 1938"
+  },
+  "quotes": [
+    {
+      "text": "Hoy fue un partido muy difícil, de inicio a fin, y conseguimos un punto.",
+      "who": "Virgil van Dijk",
+      "role": "Capitán y defensor central",
+      "team": "a"
+    },
+    {
+      "text": "They haven't played that much together, so it's going to get better.",
+      "who": "Graham Potter",
+      "role": "Técnico de Suecia, sobre Isak y Gyökeres",
+      "team": "b"
+    },
+    {
+      "text": "¿Hasta dónde podemos llegar? Sí, espero que hasta el final.",
+      "who": "Virgil van Dijk",
+      "role": "Capitán de Países Bajos, antes del torneo",
+      "team": "a"
+    }
+  ],
+  "tiles": [
+    {
+      "num": "22",
+      "lab": "contribuciones de Gyökeres",
+      "sub": "Goles + asistencias con Suecia en sus últimas 15 apariciones desde enero 2024"
+    },
+    {
+      "num": "1W · 1D",
+      "lab": "H2H reciente (2 partidos)",
+      "sub": "Países Bajos ganó el último en 2017 (2-0 eliminatoria); el anterior fue empate 1-1 en 2016"
+    },
+    {
+      "num": "4",
+      "lab": "bajas confirmadas NED",
+      "sub": "Xavi Simons (LCA), Matthijs de Ligt (espalda), Jurriën Timber (ingle) y Jerdy Schouten fuera del torneo"
+    }
+  ],
+  "caption": "Suecia llegó como el equipo que casi no clasifica y ya metió 5 en el primer partido. Países Bajos llega con cuatro bajas y un empate que dejó mal sabor. Houston va a arder este sábado. ¿La Naranja Mecánica recupera el liderato o los vikingos lo consolidan?\n\n#PaísesBajos #Suecia #NED #SWE #Mundial2026 #GrupoF #Gyokeres #VanDijk #CopaDelMundo",
+  "musicSuggestion": {
+    "song": "Habibi",
+    "artist": "Zhavia Ward"
+  },
+  "aInj": "Xavi Simons — rotura ligamento cruzado (descartado del torneo)\nMatthijs de Ligt — lesión de espalda (descartado del torneo)\nJurriën Timber — lesión de ingle (descartado del torneo)\nJerdy Schouten — lesión (descartado del torneo)\nMicky van de Ven — golpe (dudoso)",
+  "bInj": "",
+  "pred": {
+    "a": 2,
+    "b": 1,
+    "note": "Países Bajos tiene más necesidad de los tres puntos y posee mayor calidad individual pese a las bajas. Suecia es peligrosa en transición, pero el factor urgencia puede inclinar la balanza naranja."
+  },
+  "cta": {
+    "cara": "La Oranje gana y recupera el liderato",
+    "cruz": "Suecia golea y sella el grupo de visitante",
+    "ask": "No hay empate posible: la Naranja gana o los vikingos mandan. Comenta CARA o CRUZ 👇"
+  },
+  "slides": {
+    "hook": true,
+    "story": true,
+    "quotes": true,
+    "stats": true,
+    "verdict": true,
+    "doscaras": true,
+    "cta": true
+  }
+}
