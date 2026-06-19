@@ -1,0 +1,150 @@
+{
+  "mode": "resultado",
+  "account": "@caraocruzfutbol",
+  "competition": "Grupo A · J2",
+  "datetime": "Jue 18 Jun · 19:00 (CDMX)",
+  "venue": "Estadio Akron, Guadalajara",
+  "a": {
+    "name": "México",
+    "code": "MEX",
+    "color": "#006847",
+    "form": [
+      "W",
+      "W",
+      "D",
+      "W",
+      "W"
+    ],
+    "star": "Luis Romo"
+  },
+  "b": {
+    "name": "Corea del Sur",
+    "code": "KOR",
+    "color": "#C60C30",
+    "form": [
+      "W",
+      "L",
+      "D",
+      "W",
+      "L"
+    ],
+    "star": "Son Heung-min"
+  },
+  "headline": "EL HOMBRE QUE *NADIE QUERÍA*\nEN LA CANCHA DECIDIÓ\nEL PARTIDO MÁS\n*IMPORTANTE DEL TRI*",
+  "hookLine": "Lo criticaron antes del pitazo. Jugó igual. Y cambió todo en 90 segundos del segundo tiempo.",
+  "teaser": "La historia adentro →",
+  "score": {
+    "a": 1,
+    "b": 0
+  },
+  "goals": [
+    {
+      "minute": "50",
+      "player": "L. Romo",
+      "team": "a"
+    }
+  ],
+  "incidents": [
+    {
+      "minute": "3",
+      "type": "amarilla",
+      "player": "Lee Kang-in",
+      "team": "b",
+      "note": "Entrada fuerte sobre Romo en el arranque del partido"
+    },
+    {
+      "minute": "57",
+      "type": "amarilla",
+      "player": "Seungho Paik",
+      "team": "b",
+      "note": "Amonestación tras la frustración coreana después del gol de México"
+    },
+    {
+      "minute": "15",
+      "type": "polemica",
+      "player": "Son Heung-min",
+      "team": "b",
+      "note": "Remate que Edson Álvarez sacó sobre la línea; el VAR confirmó fuera de lugar previo, acción anulada"
+    },
+    {
+      "minute": "86",
+      "type": "polemica",
+      "player": "Cho Gue-sung",
+      "team": "b",
+      "note": "Cabezazo dentro del área chica; Rangel realizó doble atajada providencial para mantener el 1-0"
+    }
+  ],
+  "figura": {
+    "name": "Luis Romo",
+    "team": "a",
+    "role": "Mediocampista defensivo",
+    "stat": "Calificación 9.2 · gol decisivo al 50' · fue elegido MVP del partido pese a haber sido el jugador más cuestionado en las 24 horas previas al partido"
+  },
+  "story": {
+    "kicker": "Grupo A · J2 · México 1-0 Corea del Sur",
+    "head": "El *cuestionado* que calló a todos",
+    "body": "Romo llegó al partido siendo tendencia por las razones equivocadas: sus declaraciones pre-partido encendieron las redes y su titularidad fue la más debatida. Corea del Sur dominó posesión (58-42) y creó peligro real: el propio Son estuvo cerca de abrir el marcador en el 15', pero Edson lo sacó en la línea con fuera de lugar previo. En el 50', el arquero Kim Seung-gyu salió al aire, chocó con su propio compañero y soltó el balón; Romo lo encontró solo y definió a puerta vacía. El Tri se replegó, sufrió, y Rangel respondió con una doble atajada épica al 86' para preservar el cero. México llega a 6 puntos, primera clasificada a dieciseisavos y líder del Grupo A.",
+    "num": "6",
+    "lab": "Puntos en 2 partidos",
+    "sub": "México, líder del Grupo A con portería en cero"
+  },
+  "quotes": [
+    {
+      "text": "Fue un partido para olvidar, pero un resultado para recordar.",
+      "who": "Javier Aguirre",
+      "role": "Director Técnico de México",
+      "team": "a"
+    },
+    {
+      "text": "La segunda victoria se da en un encuentro muy trabado; quien cometiera el error iba a perder.",
+      "who": "Javier Aguirre",
+      "role": "Director Técnico de México",
+      "team": "a"
+    },
+    {
+      "text": "Cumplí un sueño de tantos.",
+      "who": "Luis Romo",
+      "role": "Goleador y MVP del partido",
+      "team": "a"
+    }
+  ],
+  "tiles": [
+    {
+      "num": "58%–42%",
+      "lab": "Posesión KOR–MEX",
+      "sub": "México ganó siendo el equipo con menos balón"
+    },
+    {
+      "num": "0",
+      "lab": "Goles recibidos en 2 partidos",
+      "sub": "Rangel, segundo portero en la historia del Tri con portería en cero en sus dos primeros partidos de Mundial"
+    },
+    {
+      "num": "8 vs 9",
+      "lab": "Remates MEX vs KOR",
+      "sub": "México fue más efectivo: convirtió su única ocasión clara en gol"
+    }
+  ],
+  "caption": "El que nadie quería en la cancha terminó siendo el héroe de Guadalajara. Luis Romo, cuestionado en las 24 horas previas, marcó el gol que clasifica a México a dieciseisavos y lo pone como líder del Grupo A con 6 puntos y portería en cero. ¿Cuándo fue la última vez que el Tri ganó así, sufriendo, con el equipo de menos balón? Eso se llama madurez mundialista. 🇲🇽⚽\n#México #ElTricolor #LuisRomo #Romo #Mundial2026 #CoreaDelSur #GrupoA #FIFAWorldCup2026",
+  "musicSuggestion": {
+    "song": "Ganas Locas",
+    "artist": "Grupo Firme"
+  },
+  "cta": {
+    "cara": "México sufre pero gana: ya es otro Tri",
+    "cruz": "Corea mereció más, el error lo decidió todo",
+    "ask": "El cuestionado se vistió de héroe — ¿o fue pura suerte? No hay empate: CARA o CRUZ 👇"
+  },
+  "closingNote": "Con 6 puntos en 2 partidos y portería en cero, México es el primer clasificado a dieciseisavos del Mundial 2026 y líder del Grupo A. El Tri jugará su J3 ante Chequia (también en México) con la posibilidad histórica de ganar los tres partidos de grupo por primera vez en su historia. Si la fase terminara hoy, el posible rival en dieciseisavos sería España en el Estadio Ciudad de México el 30 de junio.",
+  "slides": {
+    "rhook": true,
+    "story": true,
+    "goals": true,
+    "incidentes": true,
+    "figura": true,
+    "stats": true,
+    "cierre": true,
+    "doscaras": true,
+    "cta": true
+  }
+}

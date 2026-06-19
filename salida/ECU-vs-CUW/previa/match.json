@@ -1,0 +1,108 @@
+{
+  "mode": "previa",
+  "account": "@caraocruzfutbol",
+  "competition": "Grupo E · J2",
+  "datetime": "2026-06-20T20:00:00-05:00",
+  "venue": "GEHA Field at Arrowhead Stadium, Kansas City",
+  "a": {
+    "name": "Ecuador",
+    "code": "ECU",
+    "color": "#FFD100",
+    "form": [
+      "D",
+      "D",
+      "W",
+      "W",
+      "L"
+    ],
+    "star": "Moisés Caicedo"
+  },
+  "b": {
+    "name": "Curazao",
+    "code": "CUW",
+    "color": "#002D72",
+    "form": [
+      "W",
+      "L",
+      "L",
+      "L",
+      "L"
+    ],
+    "star": "Leandro Bacuna"
+  },
+  "formula": "stakes",
+  "headline": "EL PARTIDO QUE *NINGUNO*\nPUEDE PERDER:\nDOS SELECCIONES CON\nEL AGUA AL CUELLO",
+  "hookLine": "Una derrota aquí no solo cierra puertas — las sella para siempre en este Mundial.",
+  "teaser": "La historia, adentro →",
+  "story": {
+    "kicker": "FINAL ANTICIPADA · GRUPO E",
+    "head": "No hay *segunda oportunidad*:\nEcuador o Curazao se despiden hoy",
+    "body": "Ecuador llegó al Mundial con dos defensores campeones de la Champions League, pero cayó 0-1 ante Costa de Marfil por un gol en el minuto 90 de Amad Diallo — y ahora juega su vida. Curazao, el país más pequeño en clasificarse a un Mundial (185 mil habitantes), recibió una goleada de 7-1 de Alemania en su debut histórico. El punto de no retorno llega en Kansas City: quien pierda queda prácticamente eliminado, con Alemania y Costa de Marfil ya con 3 puntos en el grupo. Para Ecuador, ganar y hacerlo con goles de diferencia es imperativo si quiere avanzar como uno de los ocho mejores terceros.",
+    "num": "90",
+    "lab": "minuto fatal",
+    "sub": "El gol de Amad Diallo que hundió a la Tri en el debut y la obligó a ganar sí o sí"
+  },
+  "quotes": [
+    {
+      "text": "La falta de puntería fue un detalle; fuimos superiores en el primer tiempo y creo que en el segundo tiempo ajustamos bien lo que teníamos que ajustar.",
+      "who": "Sebastián Beccacece",
+      "role": "Entrenador",
+      "team": "a"
+    },
+    {
+      "text": "Es un resultado injusto.",
+      "who": "Sebastián Beccacece",
+      "role": "Entrenador, tras la derrota ante Costa de Marfil",
+      "team": "a"
+    },
+    {
+      "text": "Es difícil perder de esta manera. Hicimos lo que el profe pidió y lo que trabajamos.",
+      "who": "Enner Valencia",
+      "role": "Delantero de Ecuador",
+      "team": "a"
+    }
+  ],
+  "tiles": [
+    {
+      "num": "185,000",
+      "lab": "habitantes",
+      "sub": "Curazao es el país con menor población en clasificarse a un Mundial en toda la historia del fútbol"
+    },
+    {
+      "num": "2",
+      "lab": "Champions ganadas",
+      "sub": "Willian Pacho (PSG) ganó la UCL dos veces consecutivas; él y Hincapié (Arsenal) disputaron la final semanas antes del Mundial"
+    },
+    {
+      "num": "1er",
+      "lab": "enfrentamiento",
+      "sub": "Ecuador y Curazao nunca se habían enfrentado en ningún nivel — este partido del Mundial 2026 es el primero de la historia entre ambas selecciones"
+    }
+  ],
+  "caption": "Dos selecciones, un solo boleto para seguir soñando. Ecuador llega herido tras el golpe del minuto 90 ante Costa de Marfil; Curazao, el país más pequeño en la historia de los Mundiales, viene de recibir 7 goles de Alemania. En Kansas City, hoy solo sobrevive uno. ¿Quién tiene la historia de su lado?\n\n#Ecuador #Curazao #Mundial2026 #GrupoE #TriColorEcuador #FIFAWorldCup2026 #TodoONada",
+  "musicSuggestion": {
+    "song": "La Fama",
+    "artist": "Mala Rodríguez ft. Rosalía"
+  },
+  "cta": {
+    "cara": "Ecuador golea y sigue con vida en el grupo",
+    "cruz": "Curazao da el golpe histórico y elimina a la Tri",
+    "ask": "El agua está al cuello: ¿CARA o CRUZ? Comenta tu pick 👇"
+  },
+  "aInj": "",
+  "bInj": "",
+  "pred": {
+    "a": 3,
+    "b": 1,
+    "note": "Ecuador es amplio favorito por calidad de plantilla y necesidad de goles. Curazao puede marcar — lo hizo ante Alemania — pero no tiene defensiva para contener a Caicedo, Pacho e Hincapié. Resultado esperado: victoria ecuatoriana con margen."
+  },
+  "slides": {
+    "hook": true,
+    "story": true,
+    "quotes": true,
+    "stats": true,
+    "verdict": true,
+    "doscaras": true,
+    "cta": true
+  }
+}
